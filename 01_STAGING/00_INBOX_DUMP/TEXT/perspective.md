@@ -1,0 +1,2 @@
+1. Imagine if this was anime story, and you can make optimal decisions in your life to drastically change the course of present, from discipline, grit and everything. What would you do? Follow that.
+2. 18 minutes a day -> 

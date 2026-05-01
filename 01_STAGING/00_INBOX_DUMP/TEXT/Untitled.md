@@ -1,0 +1,1 @@
+ability to take a decision, accept the responsibility to the failures, gain more information from the failure to recover.

@@ -1,0 +1,4 @@
+- create system (raymond reddington, larry, charles eppes, house md )
+- create character map of plilosper, fights in icon & ghost
+- distraction filter
+- 

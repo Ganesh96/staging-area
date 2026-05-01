@@ -1,0 +1,11 @@
+The Accidental Husband (2008)
+What Love Is
+The Wedding Planner (2001)
+Runaway Bride (1999)
+Father of the Bride (1991)
+The Object of My Affection (1998)
+Friends with Benefits (2011)
+The Big Wedding (2013)
+The Proposal (2009)
+Overboard (1987)
+Shotgun Wedding (2023)

@@ -1,0 +1,92 @@
+# Doordash LeetCode Problems
+
+## 6 Months Frequency List
+- [x] 286. Walls and Gates 63.0% Med.
+- [x] 329. Longest Increasing Path in a Matrix 55.4% Hard
+- [x] 1268. Search Suggestions System 65.1% Med.
+- [x] 124. Binary Tree Maximum Path Sum 41.3% Hard
+- [x] 317. Shortest Distance from All Buildings 44.5% Hard
+- [x] 875. Koko Eating Bananas 49.1% Med.
+- [x] 588. Design In-Memory File System 48.2% Hard
+- [x] 1166. Design File System 64.2% Med.
+- [x] 1235. Maximum Profit in Job Scheduling 54.4% Hard
+- [x] 1834. Single-Threaded CPU 46.6% Med.
+- [x] 2049. Count Nodes With the Highest Score 51.3% Med.
+- [x] 209. Minimum Size Subarray Sum 49.5% Med.
+- [x] 556. Next Greater Element III 34.6% Med.
+- [x] 827. Making A Large Island 55.1% Hard
+- [x] 1347. Minimum Number of Steps to Make Two Strings Anagram 82.2% Med.
+- [ ] 84. Largest Rectangle in Histogram 47.6% Hard
+- [x] 227. Basic Calculator II 45.9% Med.
+- [x] 542. 01 Matrix 51.7% Med.
+- [x] 658. Find K Closest Elements 48.7% Med.
+- [x] 18. 4Sum 38.3% Med.
+- [x] 207. Course Schedule 49.4% Med.
+- [x] 212. Word Search II 37.4% Hard
+- [x] 224. Basic Calculator 45.7% Hard
+- [x] 480. Sliding Window Median 38.7% Hard
+- [x] 1790. Check if One String Swap Can Make Strings Equal 49.5% Easy
+- [ ] 37. Sudoku Solver 64.0% Hard
+- [x] 55. Jump Game 39.6% Med.
+- [x] 146. LRU Cache 45.3% Med.
+- [x] 210. Course Schedule II 53.6% Med.
+- [ ] 239. Sliding Window Maximum 47.7% Hard
+- [ ] 297. Serialize and Deserialize Binary Tree 59.1% Hard
+- [ ] 314. Binary Tree Vertical Order Traversal 57.2% Med.
+- [x] 695. Max Area of Island 73.2% Med.
+- [ ] 772. Basic Calculator III 52.5% Hard
+- [x] 826. Most Profit Assigning Work 56.0% Med.
+- [x] 859. Buddy Strings 33.7% Easy
+- [ ] 924. Minimize Malware Spread 42.5% Hard
+- [x] 987. Vertical Order Traversal of a Binary Tree 51.5% Hard
+- [ ] 1664. Ways to Make a Fair Array 64.6% Med.
+- [x] 1779. Find Nearest Point That Has the Same X or Y Coordinate 69.5% Easy
+
+## Full List (Remaining Problems)
+- [ ] 1905. Count Sub Islands 72.8% Med.
+- [ ] 735. Asteroid Collision 45.6% Med.
+- [ ] 1359. Count All Valid Pickup and Delivery Options 64.9% Hard
+- [ ] 296. Best Meeting Point 61.3% Hard
+- [x] 1. Two Sum 55.9% Easy
+- [ ] 208. Implement Trie (Prefix Tree) 68.1% Med.
+- [ ] 1173. Immediate Food Delivery I 80.9% Easy
+- [ ] 1174. Immediate Food Delivery II 54.4% Med.
+- [ ] 986. Interval List Intersections 72.7% Med.
+- [ ] 2565. Subsequence With the Minimum Score 32.5% Hard
+- [ ] 2611. Mice and Cheese 47.4% Med.
+- [ ] 621. Task Scheduler 61.6% Med.
+- [ ] 31. Next Permutation 43.2% Med.
+- [x] 200. Number of Islands 62.4% Med.
+- [ ] 211. Design Add and Search Words Data Structure 47.2% Med.
+- [ ] 547. Number of Provinces 68.8% Med.
+- [ ] 1011. Capacity To Ship Packages Within D Days 72.3% Med.
+- [ ] 2065. Maximum Path Quality of a Graph 59.8% Hard
+- [ ] 5. Longest Palindromic Substring 36.0% Med.
+- [ ] 23. Merge k Sorted Lists 56.9% Hard
+- [ ] 36. Valid Sudoku 62.4% Med.
+- [ ] 49. Group Anagrams 71.0% Med.
+- [ ] 113. Path Sum II 60.6% Med.
+- [ ] 304. Range Sum Query 2D - Immutable 56.6% Med.
+- [ ] 347. Top K Frequent Elements 64.7% Med.
+- [ ] 380. Insert Delete GetRandom O(1) 55.0% Med.
+- [ ] 642. Design Search Autocomplete System 49.4% Hard
+- [ ] 759. Employee Free Time 72.6% Hard
+- [ ] 839. Similar String Groups 55.4% Hard
+- [ ] 854. K-Similar Strings 40.1% Hard
+- [ ] 1087. Brace Expansion 66.7% Med.
+- [ ] 1152. Analyze User Website Visit Pattern 43.8% Med.
+- [ ] 1254. Number of Closed Islands 66.7% Med.
+- [ ] 1383. Maximum Performance of a Team 47.5% Hard
+- [ ] 1472. Design Browser History 77.8% Med.
+- [ ] 1522. Diameter of N-Ary Tree 75.2% Med.
+- [ ] 1804. Implement Trie II (Prefix Tree) 63.1% Med.
+- [ ] 2185. Counting Words With a Given Prefix 84.5% Easy
+- [ ] 2365. Task Scheduler II 54.0% Med.
+- [ ] 45. Jump Game II 41.6% Med.
+- [ ] 164. Maximum Gap 49.5% Med.
+- [ ] 277. Find the Celebrity 48.5% Med.
+- [ ] 460. LFU Cache 46.8% Hard
+- [ ] 778. Swim in Rising Water 63.0% Hard
+- [ ] 1143. Longest Common Subsequence 58.3% Med.
+- [ ] 1944. Number of Visible People in a Queue 71.4% Hard
+- [ ] 1730. Shortest Path to Get Food 56.7% Med.

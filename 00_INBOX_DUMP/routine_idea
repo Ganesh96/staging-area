@@ -1,0 +1,196 @@
+High Impact – Core Work
+
+⦁	Apply for 10 targeted jobs + log them.
+⦁	Message 5 LinkedIn contacts for referrals (tag by company).
+
+⦁	Build LinkedIn connections Excel (company, role, type, contacted, responded).
+⦁	Apply to Apple (tailored resume + tracking entry).
+
+⦁	Do 1 LeetCode problem end-to-end (code + pattern notes).
+⦁	Process 1 system design YouTube video (problem, components, 3 trade-offs).
+
+⦁	Do 1 Pluralsight / LinkedIn Learning module with a small code demo.
+⦁	Post latest GitHub project on LinkedIn (what it does, tech, impact).
+
+
+
+Supporting / Low Impact – Systems, Organization, Capture
+
+⦁	Restructure Notion into 3 areas: Tasks, Job Search, Learning.
+⦁	Merge all Obsidian notes into one vault (move others into /Inbox).
+
+⦁	Clean computer folders into: Jobs, Code, Learning, Admin, Archive.
+⦁	Export LinkedIn connections and store as connections.xlsx.
+
+⦁	During a session, rewrite 3–5 technical screenshots/posts into notebook bullets.
+⦁	Watch 1–2 MAANG tech videos and add 3 key ideas to notebook.
+
+⦁	Read or listen 20–30 min (book/audiobook), then write 2–3 ideas in notebook.
+⦁	Do a small Notion cleanup (archive old pages, rename main boards).
+⦁	Fix Habitica to track only 3–5 real habits (no clutter).
+
+
+Good. You’re basically asking for a “micro-execution OS” that we both run together.
+I’ll give you:
+⦁	A protocol we follow every time you pick a task
+⦁	How we use Super Productivity + Forest inside that protocol
+⦁	A distraction / thought-dump system (notebook + separate chat template)
+⦁	The habits this encodes
+You don’t have to remember all of it at once; we’ll use it step-by-step tomorrow.
+1. Core protocol we’ll follow for every task
+We’ll repeat this loop for every big task (passport, LeetCode, Educosys, .NET mock, jobs).
+Step 0 – You call the mode
+You send here:
+Mode: Plan big task
+Big task: [passport / LC / Educosys / .NET / jobs / other]
+Example:
+Mode: Plan big task
+Big task: LeetCode
+
+
+Step 1 – You attempt the breakdown
+You try to break it into microtasks yourself:
+Rules for your microtasks:
+⦁	Each one = 20–30 minutes of work
+⦁	Starts with a verb
+⦁	Ends with a clear result (something you could tick off)
+Example (you write something like):
+⦁	LC1: Watch problem statement + rewrite it in my own words
+⦁	LC2: Think of approaches and write outline
+⦁	LC3: Code and test with custom cases
+⦁	LC4: Watch solution if needed and re-implement
+⦁	LC5: Write 3–5 bullet notes on pattern
+You also give rough time estimates for each (e.g., 20, 20, 25, 20, 15 mins).
+
+
+Step 2 – I critique and tighten
+My job:
+⦁	Check each microtask:
+⦁	Is it too big for 20–30 min? → I ask you to split.
+⦁	Is it too vague? → I ask you to rewrite.
+⦁	Check your time estimates:
+⦁	If the sum is clearly unrealistic for your energy/time window → I say so and we cut scope.
+We keep your breakdown, just tighten it.
+Once we both agree: that microtask list is “the plan” for that big task.
+
+
+Step 3 – We pick the next Work Block
+You and I choose only the next microtask as the focus.
+Example:
+⦁	“Next Work Block = LC2: think + outline solution.”
+You:
+⦁	Add that microtask into Super Productivity
+⦁	Start Forest for 20–30 min
+⦁	Run it
+When done, you come back:
+“Work Block done: LC2 finished. Here’s what I did / where I got stuck…”
+Then we either:
+⦁	Move to the next microtask in the list, or
+⦁	Adjust if your estimate was off (you overshot/finished early/etc.)
+No full-day schedule. Just a chain of agreed microtasks.
+
+
+
+2. Super Productivity setup (how to structure tasks)
+You’ll mirror our structure in the app.
+Naming convention
+Use consistent prefixes:
+⦁	[Life] Passport – Application
+⦁	[SWE] LC – Stoney Vid – Problem 1
+⦁	[SWE] Educosys – Day 8
+⦁	[SWE] .NET Mock – Gap scan
+⦁	[SWE] Jobs – LinkedIn batch 1
+Inside each, your subtasks = our microtasks.
+Example for LeetCode Problem 1:
+Task:
+[SWE] LC – Stoney Vid – Problem 1
+Subtasks:
+⦁	Watch problem intro + rewrite in own words (20m)
+⦁	Outline brute-force + optimized idea (20m)
+⦁	Code + 3 custom tests (25m)
+⦁	Watch solution if stuck + re-implement (20m)
+⦁	Write 3–5 bullet notes (15m)
+You don’t have to be exact with time; just keep the microtasks small.
+When we design a breakdown here in chat, you then:
+⦁	Create the main task in Super Productivity
+⦁	Add subtasks exactly as we agreed
+⦁	Optionally note the time estimates in the subtask text
+3. Forest usage inside the system
+Forest = one timer per Work Block.
+Protocol:
+1.	Before Work Block:
+⦁	Choose 1 microtask from Super Productivity
+⦁	Start Forest for 20–30 minutes
+⦁	Put phone down / aside (just audio if you like calm sounds)
+1.	During Work Block:
+⦁	You do only that microtask or stare at the wall.
+⦁	No “quick YouTube”, no scrolling.
+1.	After Work Block:
+⦁	Mark subtask done or partially done in Super Productivity
+⦁	Take a 5–10 minute Break Block:
+⦁	Manga/comics
+⦁	Stretch/walk
+⦁	Water
+⦁	Then come back to this chat and tell me what happened so we can adjust.
+If a microtask clearly doesn’t fit into one Work Block, that’s data:
+we split it better next time.
+4. Distraction / bad thoughts system
+You suggested:
+⦁	Notebook to write bad thoughts
+⦁	Or typing them here
+⦁	Or a duplicate system in another chat
+Let’s define all three so you can pick what feels right.
+Option A – Physical notebook
+Very simple structure:
+On each page, two columns:
+⦁	Left: “Thought / Distraction”
+⦁	Right: “Later / Action or ignore”
+When a distraction hits mid-block:
+⦁	Write one line on the left (“check new anime”, “search random thing”, “fear about future”, etc.)
+⦁	Quick decision on the right:
+⦁	“Ignore”
+⦁	“Check after work block”
+⦁	“Schedule this for weekly review / Sunday”
+Then return to the microtask.
+Option B – Use this chat as a quick vent
+If it’s not too frequent, you can drop:
+“Distraction: [X]. Logging and going back to [microtask].”
+I’ll keep it minimal:
+⦁	Acknowledge and point back to the microtask.
+Option C – Separate “Thought Dump” chat (template)
+You can open a new ChatGPT conversation and paste this at the start:
+Title: “Thought Dump – SWE Path”
+Rules for this chat:
+1.	This is my dumping ground for distractions, bad thoughts, worries, ideas.
+2.	When I post here, I’m not asking for new tasks; I’m just offloading.
+3.	Your job is only to:
+4.	Acknowledge
+⦁	If needed, help me label the thought (fear, temptation, idea)
+⦁	Suggest whether it belongs: ignore / later / next weekly review.
+1.	Do not give me new big projects or systems here. Keep responses short.
+2.	This chat exists to protect my main execution chat from clutter.
+Then, mid-session, you can dump there instead of here.
+5. The habits we’re actually building
+This isn’t just structure; it’s identity-level habits:
+1.	“Always break it down.”
+2.	Before you start any serious task, you think in 20–30 min chunks.
+3.	“Estimate and then correct.”
+4.	You estimate each microtask.
+⦁	If you overshoot, we update the way you size things next time.
+1.	“One thing per block.”
+2.	Work Block = 1 microtask, not a messy blend.
+3.	“Log reality, not fantasy.”
+4.	Super Productivity holds what you actually did.
+⦁	Over time, we see your real capacity, not hopeful numbers.
+1.	“Distractions get written, not obeyed.”
+2.	Notebook or Thought Dump chat = capture, then back to work.
+6. How we’ll start tomorrow
+Tomorrow, when you’re ready for your first task (probably passport or LeetCode), send:
+Mode: Plan big task
+Big task: [pick one: Passport / LeetCode / Educosys / .NET / Jobs]
+Then:
+1.	You draft your microtask list + time estimates.
+2.	I refine it with you.
+3.	You put it into Super Productivity.
+4.	You start Forest and run the first Work Block.
+We repeat this for each big task you want to tackle, one at a time.
