@@ -8,10 +8,6 @@ owner: self
 goal: "Be interview-ready for Bentley Transportation AI role."
 review_cadence: weekly
 tags: [#status/project-active, #domain/job-search]
-source_notes:
-  - 01_STAGING/00_INBOX_DUMP/TEXT/bentley.md
-  - 01_STAGING/00_INBOX_DUMP/TEXT/1.md
-  - 01_STAGING/00_INBOX_DUMP/TEXT/2.md
 ---
 
 # Project - Bentley Transportation AI Interview Prep
