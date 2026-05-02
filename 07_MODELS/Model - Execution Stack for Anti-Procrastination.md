@@ -8,9 +8,6 @@ tags: [#type/model, #domain/systems]
 aliases: [time-blocking + pomodoro stack]
 applicable_domains: [daily execution, study routines]
 related_models: [Eisenhower Matrix]
-source_notes:
-  - 01_STAGING/00_INBOX_DUMP/TEXT/w.md
-  - 01_STAGING/00_INBOX_DUMP/TEXT/dialogues.md
 ---
 
 # Model - Execution Stack for Anti-Procrastination
