@@ -11,7 +11,13 @@ The objective is not generic cleanup. The objective is to convert messy personal
 - Tag = status or cross-cutting property
 - MOC = retrieval path
 
-Use `ARCHITECTURE.md`, `RETENTION_POLICY.md`, `PROCESSING_STRATEGY.md`, `01_STAGING/PROCESSING_AUDIT.md`, and `09_TEMPLATES/` as governing documents.
+Use these governing documents:
+- `BATCH_LIFECYCLE.md`
+- `PROCESSING_STRATEGY.md`
+- `ARCHITECTURE.md`
+- `RETENTION_POLICY.md`
+- `01_STAGING/PROCESSING_AUDIT.md`
+- `09_TEMPLATES/`
 
 ## Primary objective
 
@@ -62,14 +68,12 @@ Do not process all files the same way.
 
 ## Batch lifecycle
 
-Every meaningful batch must follow this sequence:
+Use `BATCH_LIFECYCLE.md` as the mandatory lifecycle contract.
 
-1. Processing
-2. Quality review
-3. Corrections
-4. Quality review v2
-5. Retention actions
-6. Next batch
+Default interpretation:
+- If user says “process this batch,” perform processing only, create `[BATCH]-processing.md`, and stop.
+- If user says “review this batch,” perform quality review only, create `[BATCH]-quality-review.md`, and stop.
+- If user says “close this batch,” run the remaining lifecycle steps in order: corrections -> quality-review-v2 -> retention actions if safe.
 
 Never perform retention actions before quality review and corrections are complete.
 
@@ -114,22 +118,21 @@ Default action for uncertainty: mark `needs-review`, not delete.
 
 ## Current strategic order
 
-1. Close LISTS batch: corrections -> quality-review-v2 -> retention actions.
-2. Process SYSTEMS by function-based clusters:
+1. Process SYSTEMS by function-based clusters:
    - habit/routine/time architecture
    - procrastination/habit mechanics
    - flow/focus systems
    - interview/technical prep systems
-3. Process NOTES by canonicalization clusters:
+2. Process NOTES by canonicalization clusters:
    - existing MOCs/dashboard/indexes
    - book summaries
    - technical/career guides
    - identity/philosophy/character notes
-4. Process STUDY_MATERIAL markdown and project material.
-5. Process Doordash packet before Amazon.
-6. Process Amazon markdown/project packet.
-7. Create binary attachment indexes for PDFs/DOCX/ZIPs.
-8. Extract from PDFs/DOCX only selectively, after indexing.
+3. Process STUDY_MATERIAL markdown and project material.
+4. Process Doordash packet before Amazon.
+5. Process Amazon markdown/project packet.
+6. Create binary attachment indexes for PDFs/DOCX/ZIPs.
+7. Extract from PDFs/DOCX only selectively, after indexing.
 
 ## Required batch report sections
 
