@@ -21,15 +21,5 @@ Motivated, but lists are too broad without behavior filters.
 ## What I learned
 Identity references are useful only when translated into concrete traits and habits.
 
-## Weekly follow-through
-| Week | Trait focus | Behavior proof | Reflection |
-|---|---|---|---|
-| W1 | Clarity | 1 concise explanation/day | pending |
-| W2 | Discipline | 5 focused blocks/day | pending |
-| W3 | Composure | 1 stress response reset/day | pending |
-
 ## What changes next
 Select 3 traits to practice weekly instead of maintaining broad persona catalogs.
-
-## Links
-- [[LISTS Corrections]]

@@ -8,9 +8,6 @@ tags: [#type/model, #domain/job-search]
 aliases: [STAR interview model]
 applicable_domains: [behavioral interviews, project storytelling]
 related_models: []
-source_notes:
-  - 01_STAGING/00_INBOX_DUMP/TEXT/1.md
-  - 01_STAGING/00_INBOX_DUMP/TEXT/2.md
 ---
 
 # Model - STAR Behavioral Interviewing
