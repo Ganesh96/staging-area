@@ -21,5 +21,3 @@ Apply during mock system-design rounds and architecture walkthroughs.
 
 ## Links
 - Connects to [[Reference - Amazon Technical Prep Topics Register]]
-- Related to [[Prep - Pattern First Review Outperforms Chronological Problem Grinding]] for practice framing.
-- Contrast with component-first answer patterns in generic design prep notes.

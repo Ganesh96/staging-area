@@ -41,11 +41,6 @@ tags: [#status/reference, #domain/job-search]
 - `pdfs/recommendation engine  - Key Components.docx`
 - `pdfs/recommendation engine - Question.docx`
 
-## SQL relevance (role-dependent lane)
-- SQL emphasis is **role/team/interviewer dependent** in Amazon loops.
-- Treat SQL as a **conditional lane** unless the specific loop confirms SQL-heavy screening.
-- Keep SQL prep available as optional reinforcement (query fluency, joins, aggregations) but not default core lane for every SDE loop.
-
 ## Needs review
 Several technical PDFs are currently unreadable in this environment and should be rechecked with a reliable PDF text extraction workflow.
 

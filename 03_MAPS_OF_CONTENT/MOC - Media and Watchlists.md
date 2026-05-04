@@ -18,11 +18,3 @@ source_notes:
 
 ## Register
 - [[Reference - LISTS Batch - Media Watchlist Register]]
-
-## Cross-domain links
-- [[MOC - Learning Resources and Study Planning]] (for books-to-movies overlap)
-
-## Process context
-- [[LISTS Processing Batch Report]]
-- [[LISTS Corrections]]
-- [[LISTS Quality Review v2]]

@@ -22,5 +22,3 @@ Design weekly plans that avoid resource sprawl and checklist-only progress.
 
 ## Links
 - Connects to [[Model - Amazon Interview Preparation Stack]]
-- Related to [[Execution - Daily Job Search Rhythm (AM Apply, PM Network)]].
-- Related to [[Focus - Structured Day Stack Combines Time Blocking and Pomodoro]].

@@ -21,5 +21,3 @@ Use as a quality gate before mock interviews.
 
 ## Links
 - Connects to [[Model - Amazon Leadership Principles Behavioral Mapping]]
-- Overlaps with [[Interviewing - STAR Response Structure Increases Signal]] (structure vs evidence-density emphasis).
-- Related to [[Interviewing - Behavioral Answer Bank Should Map to Competencies]].

@@ -44,13 +44,6 @@ Build interview-readiness for Amazon SDE loops by integrating LP behavioral evid
 - [ ] System-design articulation score (clarity + tradeoff depth).
 - [ ] Mock feedback closure rate.
 
-## SDE I vs SDE II calibration
-- **Coding depth:** SDE I bar emphasizes clean DS/A fundamentals and debugging clarity; SDE II bar adds broader pattern transfer, tradeoff articulation, and stronger complexity justification under ambiguity.
-- **System design depth:** SDE I may see lighter component-level design and API/data-flow clarity; SDE II expects fuller architecture decomposition, scaling tradeoffs, and failure-mode handling.
-- **Behavioral ownership bar:** SDE I stories can focus on scoped ownership; SDE II stories should show cross-team influence, decision tradeoffs, and measurable business impact.
-- **Phone screen vs onsite:** phone screens prioritize signal density (problem-solving clarity, communication, baseline LP evidence); onsite raises bar on consistency across rounds and deeper probing.
-- **Ambiguity/leadership expectation:** SDE II answers should demonstrate stronger decision framing in ambiguous contexts and proactive leadership mechanisms, not just task execution.
-
 ## Open loops
 - Validate role-specific emphasis (SDE I vs SDE II phone screen depth).
 - Resolve unreadable PDF corpus for any missed high-value content.
