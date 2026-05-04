@@ -31,10 +31,5 @@ Standardizing prompt architecture makes systems portable across domains while pr
 ## Signals / diagnostics
 - Weak spec: no constraints, no phase logic, no evaluation criteria.
 
-## Applied examples
-- [[Reference - LISTS Batch - Prompt Systems Register]]
-- [[Project - LISTS Batch - Interview and Job Search Execution]]
-
 ## Links
 - Supports [[MOC - Prompt Systems Library]]
-- Supports [[LISTS Corrections]]
