@@ -81,11 +81,11 @@ Processed all markdown files in `01_STAGING/00_INBOX_DUMP/LISTS/` (47 files).
 - Journal:
   - [[Journal - 2026-05-02 - Identity and Character Embodiment Prompt]]
 
-## 4) Duplicate clusters + canonical recommendations
-- Books cluster → canonical: `Booksss.md`
-- Resource websites cluster → canonical: `3. Curated Learning Resources.md`
-- Prompt systems cluster → canonical umbrella: `Unified System.md` + role-specific prompt notes
-- Media cluster → canonicals: `Anime.md`, `Movies_and_TV_To_Watch_Raw.md`, `TV_Series_List.md`
+## 4) Duplicate clusters
+- Books cluster: `Books.md`, `Booksss.md`, `Books - Progress.md`, `Recommended Reading.md`, `Hardcopy_Books_Inventory.md`
+- Resource websites cluster: `Resources - Websites.md`, `Resources - Websitesss.md`, `Resource Library.md`, `3. Curated Learning Resources.md`
+- Prompt systems cluster: `Brain Architect - Praxis.md`, `CodeMind 2.0 - Alpha-G.md`, `Unified System.md`, `System - One.md`, `Productivity Coach - Aether.md`, `Software Guy - Rob.md`, `Tenjin - Librarian Friend.md`
+- Media cluster: `Anime*`, `Movies*`, `TV_Series_List.md`, `Comedians_Watched_List.md`
 
 ## 5) Low-value/placeholder candidates
 - `Behavioral_Interview_Links.md`
@@ -105,12 +105,10 @@ Processed all markdown files in `01_STAGING/00_INBOX_DUMP/LISTS/` (47 files).
   - `MOC - Prompt Systems Library`
 
 ## 8) Unresolved items
-| File | Issue | Owner | Target review date |
-|---|---|---|---|
-| ILS.md | unclear content/function | user | 2026-05-09 |
-| Gym_Exercises_Planet_Fitness_Raw.md | needs clearer protocol extraction | user | 2026-05-09 |
-| Resources - Websitesss.md | near-duplicate canonicalization | user | 2026-05-09 |
-| misc apps.md | fragmented ideas require triage | user | 2026-05-09 |
+- `ILS.md` (unclear content/function)
+- `Gym_Exercises_Planet_Fitness_Raw.md` (needs clearer protocol extraction)
+- `Resources - Websitesss.md` (near-duplicate canonicalization)
+- `misc apps.md` (fragmented ideas require triage)
 
 ## 9) Retention recommendation per source file
 Included directly in the classification table above.

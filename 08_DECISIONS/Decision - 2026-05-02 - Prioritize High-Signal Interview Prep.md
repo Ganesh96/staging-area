@@ -7,11 +7,6 @@ updated: 2026-05-02
 decision_date: 2026-05-02
 context: "Large interview-prep backlog in TEXT notes."
 tags: [#type/decision, #domain/job-search]
-source_notes:
-  - 01_STAGING/00_INBOX_DUMP/TEXT/1.md
-  - 01_STAGING/00_INBOX_DUMP/TEXT/2.md
-  - 01_STAGING/00_INBOX_DUMP/TEXT/bentley.md
-  - 01_STAGING/00_INBOX_DUMP/TEXT/chunk_01.md
 ---
 
 # Decision - 2026-05-02 - Prioritize High-Signal Interview Prep
