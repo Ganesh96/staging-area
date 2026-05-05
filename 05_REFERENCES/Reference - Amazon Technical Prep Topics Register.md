@@ -26,6 +26,17 @@ tags: [#status/reference, #domain/job-search]
 - Authentication/security features
 - Recommendation-system component architecture
 
+## LLD/OOD + maintainable code lane
+- API/interface design, modular decomposition, testability, naming, and readability under interview constraints.
+
+## OS/networking/internet fundamentals
+- Process/thread basics, memory/caching intuition, latency vs throughput, TCP/HTTP fundamentals, load-balancing/CDN mental models.
+
+## Final checklists and rubrics
+- Coding: correctness + complexity + communication rubric.
+- Design: requirements -> API/data model -> components -> tradeoffs -> failure handling.
+- Behavioral: LP mapping, evidence-density, and follow-up depth checklist.
+
 ## High-priority review areas
 1. Frequency coding patterns from LeetCode lists.
 2. Design + tradeoff explanation under time constraints.
@@ -40,6 +51,11 @@ tags: [#status/reference, #domain/job-search]
 - `pdfs/authentication_features_guide.pdf`
 - `pdfs/recommendation engine  - Key Components.docx`
 - `pdfs/recommendation engine - Question.docx`
+
+## SQL relevance (role-dependent lane)
+- SQL emphasis is **role/team/interviewer dependent** in Amazon loops.
+- Treat SQL as a **conditional lane** unless the specific loop confirms SQL-heavy screening.
+- Keep SQL prep available as optional reinforcement (query fluency, joins, aggregations) but not default core lane for every SDE loop.
 
 ## Needs review
 Several technical PDFs are currently unreadable in this environment and should be rechecked with a reliable PDF text extraction workflow.

@@ -44,3 +44,15 @@ Map each story to a primary LP and one secondary LP to avoid one-dimensional ans
 ## Links
 - Supports [[Project - Amazon SDE Interview Preparation]]
 - Supports [[MOC - Amazon Interview Preparation]]
+
+## Story bank operating requirement
+- Maintain a 10-15 story bank mapped across high-frequency LPs.
+- Every story must pass STAR quality bar with explicit **I** ownership language, not generic **we** framing.
+- Include metrics, constraint context, tradeoff rationale, and follow-up depth for probing.
+
+## LP prompt categories
+- Ownership and bias-for-action
+- Customer obsession and long-term judgment
+- Conflict/disagreement and influence without authority
+- Failure, recovery, and learning velocity
+- Ambiguity framing and decision quality
