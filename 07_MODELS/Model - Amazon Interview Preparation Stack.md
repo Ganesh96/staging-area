@@ -48,3 +48,13 @@ source_notes:
 ## Links
 - Supports [[Project - Amazon SDE Interview Preparation]]
 - Supports [[MOC - Amazon Interview Preparation]]
+
+## Interview signal dimensions
+- Coding signal: correctness, complexity judgment, debugging composure.
+- LLD/OOD signal: maintainable abstractions, interface clarity, extensibility tradeoffs.
+- System-design signal: scaling choices, bottleneck reasoning, reliability safeguards.
+- Behavioral/LP signal: ownership depth, customer impact, principled decisions.
+- Communication signal: structured thinking, concise narration, clarifying questions.
+- Production-readiness signal: testing strategy, observability, rollback/failure posture.
+- Ambiguity handling: scope shaping, assumptions, and decision under incomplete data.
+- Role-depth expectations: explicit SDE I baseline vs SDE II depth escalation across all signals.

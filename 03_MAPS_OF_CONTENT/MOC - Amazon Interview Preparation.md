@@ -33,3 +33,12 @@ source_notes:
 - [[Behavioral - STAR Stories Need Evidence Density to Score Well]]
 - [[Interview Prep - Company Prep Must Separate Process Patterns and Execution]]
 - [[System Design - Tradeoff Articulation Matters More Than Component Listing]]
+
+## Question-bank and rubric coverage
+- [[Reference - Amazon Technical Prep Topics Register]]
+- [[Model - Amazon Interview Preparation Stack]]
+- [[Model - Amazon Leadership Principles Behavioral Mapping]]
+
+## Extracted text source status
+- Expected extracted replacement folder: `01_STAGING/01_LONG_FORM/STUDY_MATERIAL/Amazon/00_EXTRACTED_PDF_NOTES/`
+- Mapping tracked in [[Reference - Amazon Interview Prep Source Register]].
