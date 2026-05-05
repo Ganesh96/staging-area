@@ -1,0 +1,250 @@
+# Amazon SDE Interview Strategy
+
+Core thesis
+Amazon SDE interviews are not only coding tests. They evaluate whether you can build production-quality software, reason under ambiguity, communicate clearly, and demonstrate Amazon Leadership Principles through specific past behavior.
+
+What an SDE does at Amazon
+Amazon SDEs work on large-scale computing systems and own the software development lifecycle:
+- design solutions
+- write code
+- test and implement
+- maintain and iterate
+- solve technical and business problems
+- apply computer science fundamentals such as algorithms and data structures
+- work in small teams across large platforms and customer-facing systems
+
+Interview types represented in the PDFs
+
+1. Phone interview
+Typical structure:
+- one coding question
+- one Leadership Principle behavioral question
+- live coding in language of choice
+- no IDE/compiler assumed
+- interviewer expects production-like code
+
+2. Onsite interview
+Common competency areas:
+- coding: logical and maintainable code
+- data structures and algorithms
+- problem solving
+- system design and operational performance
+- dealing with ambiguity
+- customer obsession
+- ownership
+- bias for action
+- highest standards
+- earn trust
+- have backbone; disagree and commit
+- learn and be curious
+- deliver results
+- are right, a lot
+
+3. System design interview
+Expected for SDE and more senior roles. Interviewer may ask intentionally vague questions. The key is not to guess the expected answer, but to clarify, define requirements, model the system, discuss tradeoffs, and explain operational behavior.
+
+4. Behavioral / Leadership Principles interview
+A significant portion of the process evaluates how you have demonstrated Leadership Principles in prior work. Interviewers want specific examples, not generic claims.
+
+High-signal preparation areas
+
+A. Job description alignment
+Before the interview, review the job description and align:
+- language experience
+- backend/frontend/full-stack expectations
+- distributed systems or cloud expectations
+- data/platform experience
+- ownership scope
+- customer/problem domain
+- seniority expectations
+
+B. Resume defense
+Everything on the resume is fair game.
+If you list Java, Python, C++, distributed systems, Kafka, DynamoDB, AWS, Kubernetes, caching, microservices, or any project, prepare to explain:
+- what you built
+- why it was needed
+- your individual contribution
+- design choices
+- tradeoffs
+- failure modes
+- scale
+- metrics
+- lessons learned
+
+C. Why Amazon
+Prepare a real answer, not a generic one.
+Good answer components:
+- customer obsession: specific customer-scale or product impact you care about
+- builder culture: desire to own ambiguous problems end-to-end
+- technical scale: interest in distributed systems, reliability, operational excellence
+- career fit: why this role and team align with your strengths
+- mutual value: what Amazon gets from you and what you want to grow into
+
+Avoid:
+- "big company"
+- "good compensation"
+- "I like AWS" without specificity
+- memorized slogans
+
+D. Ask thoughtful questions
+The PDFs emphasize asking high-scope questions. Strong questions reveal that you researched the role and are thinking like an owner.
+
+Good interviewer questions:
+- What are the team's most important customer problems right now?
+- What technical constraints make this role challenging?
+- What does success look like in the first 6-12 months?
+- What are common failure modes for engineers joining this team?
+- How does the team balance operational load with new feature development?
+- What systems or services would this role likely own?
+- What are the biggest scaling or reliability challenges the team is facing?
+
+Interview behavior rules
+
+1. Clarify first
+When asked a coding or design question:
+- restate the problem
+- ask about inputs, outputs, constraints, edge cases, scale
+- define assumptions explicitly
+- confirm before coding/designing
+
+2. Think aloud
+Interviewers evaluate how you reason. Do not silently disappear into implementation.
+Explain:
+- why you chose a data structure
+- why one algorithm is better than another
+- what tradeoff you are making
+- what edge case you are considering
+- how you would improve with more time
+
+3. Be concise but detailed
+A useful tactic from the prep docs:
+- answer succinctly
+- pause
+- ask whether the interviewer wants more depth
+This prevents rambling while showing openness to dive deep.
+
+4. Make it collaborative
+Amazon interviewers want to know what it would be like to work with you. Ask clarifying questions and engage with their hints or constraints.
+
+5. Use data
+For behavioral answers, use metrics:
+- latency reduced by X%
+- cost reduced by $X or Y%
+- availability improved from A to B
+- tickets reduced
+- deployment frequency increased
+- manual effort reduced by hours/week
+- conversion, retention, throughput, error rate, SLA, defect rate, customer impact
+
+6. Use "I", not "we"
+For STAR answers, Amazon wants your individual contribution. Team context is fine, but actions must identify what you personally owned.
+
+7. Do not hide negative outcomes
+Stories involving failure can be strong if they show:
+- ownership
+- learning
+- correction
+- preventing recurrence
+- customer recovery
+- mechanisms created afterward
+
+8. Be ready for follow-ups
+Interviewers will dive deep. Prepare details:
+- timeline
+- alternatives considered
+- data available
+- constraints
+- exact role
+- conflicts
+- metrics
+- postmortem
+- what you would do differently
+
+Amazon interview signal map
+
+Technical signal
+- correct code
+- good complexity
+- clean structure
+- edge cases
+- tests
+- production mindset
+- deep CS fundamentals
+
+Design signal
+- requirements
+- customer problem
+- API/data model/components
+- scalability
+- tradeoffs
+- availability/failure handling
+- operational performance
+- monitoring/debuggability
+
+Behavioral signal
+- STAR structure
+- individual ownership
+- metrics
+- Leadership Principle alignment
+- self-awareness
+- ability to learn and improve
+
+Communication signal
+- clarifies ambiguity
+- organizes answer
+- explains tradeoffs
+- invites collaboration
+- adjusts level of detail
+
+Common failure modes
+
+1. Coding
+- jumps into code without clarifying
+- writes pseudocode instead of real code
+- ignores edge cases
+- does not test
+- cannot explain complexity
+- over-engineers
+- cannot recover from bugs
+- uses unclear variable names
+
+2. System design
+- starts drawing architecture before requirements
+- does not identify customer/use case
+- ignores scale
+- only discusses happy path
+- no failure handling
+- no operational metrics
+- no tradeoffs
+- names technology without understanding it
+
+3. Behavioral
+- gives generic answer
+- says "we" throughout
+- no metrics
+- no conflict or obstacle
+- no learning
+- uses old or weak examples
+- does not answer the exact question
+- tries to force a rehearsed story
+
+4. Overall
+- does not research role/company
+- cannot explain resume projects
+- lacks concise communication
+- appears passive rather than owner-minded
+
+Core preparation checklist
+
+Before interviews:
+- choose your coding language
+- practice without IDE
+- memorize common data structure operations and complexities
+- practice BFS/DFS, binary search, recursion, dynamic programming, heaps, hash maps, linked lists, trees, graphs
+- prepare 10-15 STAR stories
+- map each story to multiple Leadership Principles
+- prepare "Why Amazon?"
+- prepare role/team questions
+- review resume technologies
+- practice whiteboard system design
+- review OS, networking, databases, distributed systems

@@ -1,0 +1,357 @@
+# Final Checklists and Interview Rubrics
+
+Coding interview checklist
+
+Before coding:
+- restate the problem
+- clarify input/output
+- ask about constraints
+- ask about edge cases
+- define assumptions
+- give a simple example
+- mention brute force
+- propose optimized approach
+- explain data structure choice
+
+While coding:
+- think out loud
+- write real code, not pseudocode
+- use descriptive names
+- keep functions small
+- avoid unnecessary complexity
+- handle edge cases
+- maintain invariants
+- ask if assumptions need revisiting
+
+After coding:
+- run through normal test
+- run through edge case
+- run through no-solution/failure case
+- check off-by-one errors
+- check null/empty/single cases
+- state time complexity
+- state space complexity
+- discuss improvements
+
+Coding self-audit
+Ask:
+- Does the code compile syntactically?
+- Did I use the right data structure?
+- Did I handle duplicates?
+- Did I handle empty input?
+- Did I handle large input?
+- Did I explain complexity?
+- Did I test?
+- Did I overcomplicate it?
+
+System design checklist
+
+Start:
+- identify customer
+- identify problem
+- ask clarifying questions
+- list requirements
+- distinguish functional and non-functional
+- estimate scale
+- identify read/write ratio
+
+Middle:
+- define APIs
+- define data model
+- draw architecture
+- identify components
+- show data flow
+- choose storage
+- choose cache strategy
+- choose queue/async strategy if needed
+- discuss scaling
+- discuss consistency
+
+Deep dive:
+- bottleneck
+- hot key
+- sharding
+- caching
+- database indexing
+- failure handling
+- monitoring
+- deployment
+- security
+- cost
+
+End:
+- summarize design
+- summarize tradeoffs
+- state limitations
+- state future improvements
+
+System design self-audit
+Ask:
+- Did I write requirements first?
+- Did I identify the customer?
+- Did I define scale?
+- Did I draw component interactions?
+- Did I explain how data moves?
+- Did I explain how data is stored?
+- Did I discuss availability and failures?
+- Did I discuss operational performance?
+- Did I discuss tradeoffs?
+- Did I adapt to interviewer feedback?
+
+Behavioral checklist
+
+Before interview:
+- prepare 10-15 stories
+- map each story to LPs
+- quantify outcomes
+- prepare failure stories
+- prepare disagreement stories
+- prepare customer stories
+- prepare deep technical stories
+- prepare mentorship stories
+- prepare "Why Amazon?"
+- prepare questions for interviewers
+
+During answer:
+- answer the exact prompt
+- use STAR
+- use "I"
+- be specific
+- include stakes
+- include obstacle
+- include metrics
+- include learning
+- avoid rambling
+- pause for follow-up
+
+Behavioral self-audit
+Ask:
+- Was this a specific event?
+- Did I personally own the action?
+- Did I quantify the result?
+- Did I explain the tradeoff?
+- Did I show the LP?
+- Did I include learning?
+- Did I answer the question directly?
+
+Resume defense checklist
+
+For each resume project:
+- problem
+- users/customers
+- scale
+- architecture
+- your role
+- technologies used
+- why chosen
+- alternatives considered
+- data model
+- APIs
+- failure modes
+- tests
+- metrics
+- tradeoffs
+- what you would improve
+
+For each listed technology:
+- where used
+- depth of usage
+- common pitfalls
+- performance characteristics
+- alternatives
+- limitations
+
+Production-quality code rubric
+
+2 - Strong
+- correct
+- readable
+- modular
+- edge cases handled
+- tests included
+- complexity optimal or justified
+- idiomatic
+- robust
+
+1 - Mixed
+- mostly correct
+- some edge cases missing
+- structure acceptable
+- complexity explained but not optimal
+- minor bugs
+
+0 - Weak
+- unclear
+- incorrect
+- pseudocode
+- no edge cases
+- no complexity
+- disorganized
+
+System design rubric
+
+2 - Strong
+- clear customer/problem
+- strong requirements
+- scale estimates
+- coherent architecture
+- APIs/data model
+- tradeoffs
+- failure handling
+- operational metrics
+- adaptive communication
+
+1 - Mixed
+- architecture mostly reasonable
+- some missing scale/tradeoffs
+- limited operations/failure discussion
+
+0 - Weak
+- jumps to technology
+- no requirements
+- no customer framing
+- no scale
+- no failure handling
+- vague
+
+Behavioral rubric
+
+2 - Strong
+- specific STAR
+- individual ownership
+- metrics
+- tradeoff/conflict
+- LP alignment
+- learning
+- concise
+
+1 - Mixed
+- understandable story
+- some missing metrics or ownership clarity
+
+0 - Weak
+- generic
+- team-focused
+- no result
+- no data
+- does not answer question
+
+Ambiguity-handling rubric
+
+Strong:
+- asks clarifying questions
+- states assumptions
+- moves forward with reasonable decision
+- adapts when new info appears
+
+Weak:
+- freezes
+- guesses silently
+- complains about ambiguity
+- over-asks without progress
+
+Tradeoff rubric
+
+Strong:
+- compares at least two options
+- states decision criteria
+- links choice to requirements
+- acknowledges downside
+
+Weak:
+- presents one option as obvious
+- uses buzzwords
+- ignores constraints
+- no downside
+
+Customer obsession rubric
+
+Strong:
+- identifies customer
+- states customer problem
+- connects technical decision to customer outcome
+- measures customer impact
+
+Weak:
+- focuses only on internal implementation
+- no user/customer context
+- no impact metric
+
+Operational excellence rubric
+
+Strong:
+- defines SLIs/SLOs
+- mentions monitoring/logging/tracing
+- identifies failures
+- suggests mitigations
+- discusses rollback/runbooks
+
+Weak:
+- only happy path
+- no alerts
+- no failure recovery
+- no debugging plan
+
+Final week drill plan
+
+Day 1:
+- 2 arrays/string problems
+- 1 behavioral mock
+- resume defense pass
+
+Day 2:
+- 2 trees/graphs problems
+- 1 system design: TinyURL or image service
+- review OS/networking
+
+Day 3:
+- 2 DP problems
+- 1 behavioral mock: failure/disagreement
+- review databases
+
+Day 4:
+- 2 mixed medium problems
+- 1 system design: feed/social app
+- review distributed systems
+
+Day 5:
+- timed coding mock
+- timed behavioral mock
+- refine weak stories
+
+Day 6:
+- full mock loop: coding + design + behavioral
+- write failure analysis
+
+Day 7:
+- light review
+- check templates
+- rest
+- prepare logistics/questions
+
+Interview day checklist
+- stable internet
+- quiet environment
+- working camera/mic if needed
+- notebook/whiteboard if allowed
+- coding language ready
+- resume nearby
+- story bank refreshed
+- questions for interviewer ready
+- water
+- avoid last-minute cramming
+
+Opening introduction template
+"I am a software engineer focused on [backend/full-stack/distributed systems/etc.]. Recently I have worked on [brief project/domain], where I owned [scope] and delivered [impact/metric]. I am strongest in [languages/areas], and I am interested in this role because [specific Amazon/team/customer/scale reason]."
+
+Why Amazon template
+"I am interested in Amazon because the role combines [customer-scale problem], [builder ownership], and [technical depth]. In my recent work, I enjoyed [specific relevant experience], and this role seems aligned because [specific role/team expectation]. I think I can contribute through [strengths], while growing in [area]."
+
+Coding closing template
+"The final complexity is [time] and [space]. The main edge cases are [cases]. If I had more time, I would improve [testing/performance/readability/concurrency/etc.]."
+
+System design closing template
+"The design supports [core requirements] using [architecture summary]. The main tradeoff is [tradeoff]. I optimized for [customer/scale/latency/availability]. The biggest risks are [failure modes], mitigated by [mitigations]. Operationally, I would monitor [metrics]."
+
+Behavioral closing template
+"The main result was [metric/outcome]. The key lesson was [lesson]. Since then, I have applied this by [mechanism/behavior change]."
