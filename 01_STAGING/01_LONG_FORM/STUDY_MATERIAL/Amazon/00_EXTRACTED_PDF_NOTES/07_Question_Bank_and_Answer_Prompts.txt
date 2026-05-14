@@ -1,0 +1,283 @@
+# Question Bank and Answer-Prep Prompts
+
+Purpose
+This file consolidates question prompts from the PDFs and organizes them for practice. Use these to build and test your story bank.
+
+Behavioral questions by Leadership Principle
+
+Customer Obsession
+- Who was your most difficult customer?
+- Give me an example of a time when you did not meet a client's expectation. What happened, and how did you rectify it?
+- When working with many customers, how do you prioritize customer needs?
+- Tell the story of the last time you had to apologize to someone.
+- Tell me about a time you improved customer trust.
+- Tell me about a time customer feedback changed your approach.
+
+Ownership
+- Tell me about a time when you had to leave a task unfinished.
+- Tell me about a time when you worked on a project with unclear responsibilities.
+- Give me an example of when you took a risk and it failed.
+- Tell me about a time you took responsibility for something outside your role.
+- Tell me about a time you fixed a long-term issue rather than a short-term symptom.
+
+Invent and Simplify
+- Tell me about a time when you gave a simple solution to a complex problem.
+- Tell me about a time when you created a new way of doing something that gave the company a competitive advantage.
+- Tell me about an out-of-the-box idea you had and its impact.
+- Tell me about a time you automated or simplified a manual process.
+- Tell me about a time your idea was misunderstood at first.
+
+Are Right, A Lot
+- Tell me about a time when you were wrong.
+- Tell me about a time when you worked with incomplete data or information.
+- Tell me about a time when you proposed a solution others doubted that turned out in your favor.
+- Tell me about a time you changed your mind after new evidence.
+- Tell me about a time you sought diverse perspectives before deciding.
+
+Insist on the Highest Standards
+- Tell me about a time when you could not meet your own expectations on a project.
+- Tell me about a time when a team member did not meet your expectations.
+- Tell me about a time you refused to compromise your standards around code quality.
+- Tell me about a time you prevented a defect from being shipped.
+- Tell me about a time you raised the quality bar for a team.
+
+Learn and Be Curious
+- Tell me about a time when you influenced change by only asking questions.
+- Tell me about a time when you solved a problem through superior knowledge or observation.
+- Tell me about a time you learned a new technology to solve a problem.
+- Tell me about a time feedback changed your behavior.
+- Tell me about a time you explored a new possibility and acted on it.
+
+Think Big
+- Tell me about your proudest professional achievement.
+- Tell me about a time when you went way beyond the project scope and delivered.
+- Tell me about a time you looked around corners for a future customer need.
+- Tell me about a time you proposed a larger vision than the original ask.
+
+Bias for Action
+- Describe a time when you saw a problem and took initiative instead of waiting.
+- Tell me about a time when you took a calculated risk.
+- Tell me about a time you needed information from someone who was not responsive. What did you do?
+- Tell me about a time you did not have time to weigh all options but had to decide.
+- Tell me about a time you acted with incomplete data but used judgment.
+
+Frugality
+- Tell me about a time when you had to work with limited time or resources.
+- Describe a time when you needed a bigger budget to achieve desired results but were not granted it. How did you overcome the challenge?
+- Tell me about a clever new way you saved money for the company.
+- Tell me about a time you achieved more with less.
+- Tell me about a time constraints led to invention.
+
+Earn Trust
+- What would you do if you found out your closest friend at work was stealing?
+- Tell me about a time when you had to tell someone a harsh truth.
+- Tell me about a time when you earned trust of a group.
+- Tell me about a time you admitted a mistake.
+- Tell me about a time you repaired trust after a failure.
+
+Dive Deep
+- Tell me about a time when you devised a new way of looking at data that improved performance.
+- Describe a time when you personally resolved a challenging technical situation.
+- Tell me about a time when you had to dive deep into data and the results you achieved.
+- Tell me about a time metrics and anecdotes disagreed.
+- Tell me about a root cause analysis you led.
+
+Have Backbone; Disagree and Commit
+- Tell me about an unpopular decision of yours.
+- Tell me about a time when you stepped up and disagreed with a team member's approach.
+- If your direct manager instructed you to do something you disagreed with, how would you handle it?
+- Tell me about a time you challenged "the way it has always been done."
+- Tell me about a time you committed after your preferred approach was not chosen.
+
+Hire and Develop the Best
+- Tell me about a time when you mentored someone.
+- Tell me about a time when you dealt with a poor performer on your team.
+- Tell me about a time you helped someone grow.
+- Tell me about a mechanism you created for team development.
+- Tell me about a time you raised the performance bar.
+
+Deliver Results
+- Tell me about a time you handled a variety of assignments. What were the results?
+- Give an example of a time when you were 75% through a project and had to pivot strategy. How did you make it a success?
+- Tell me about a time when you overcame an obstacle and delivered results.
+- Give an example of delivering an important project under a tight deadline.
+- Tell me about a project that did not go as planned and how you would improve next time.
+
+Business-critical and independent decision prompts
+- Think about times you made business-critical decisions independently.
+- Tell me about a decision you made without all the data you wanted.
+- Tell me about a time your intuition shaped direction.
+- Tell me about a time you balanced speed and correctness.
+- Tell me about a time you made a tradeoff that affected customers.
+
+Follow-up questions interviewers may ask
+- What exactly was your role?
+- What did you personally do?
+- What alternatives did you consider?
+- Why did you choose that approach?
+- What data did you have?
+- What data did you wish you had?
+- What was the hardest part?
+- Who disagreed and why?
+- How did you influence them?
+- What was the outcome?
+- How did you measure success?
+- What would you do differently?
+- What did you learn?
+- Did the mechanism continue after you left?
+- How did this affect customers?
+- How did this affect the business?
+- What was the long-term impact?
+
+Technical coding prompts
+
+General coding questions
+- Solve one coding problem in the language of your choice.
+- Write production-like code.
+- Explain what you are trying to achieve as you code.
+- Add test cases.
+- Brainstorm edge cases.
+- State time and space complexity.
+- Explain tradeoffs and improvements.
+
+Classic practice problems
+- Valid Parentheses
+- Two Sum
+- Longest Common Prefix
+- Merge Sorted Array
+- Best Time to Buy and Sell Stock
+- Maximum Depth of Binary Tree
+
+Arrays
+- Search Insert Position
+- Find First and Last Position of Element in Sorted Array
+- Longest Substring Without Repeating Characters
+- Search in Rotated Sorted Array
+- Remove Duplicates from Sorted Array
+- Container With Most Water
+- Valid Sudoku
+- Top K Frequent Elements
+
+Strings
+- Reverse String
+- Length of Last Word
+- Valid Anagram
+- Decode String
+- String Compression
+- Unique Email Addresses
+- Isomorphic Strings
+
+Linked Lists
+- Reverse Linked List
+- Remove Nth Node From End of List
+- Swap Nodes in Pairs
+- Add Two Numbers
+- Palindrome Linked List
+- Copy Linked List With Random Pointer
+- Linked List Cycle
+- Odd-Even Linked List
+
+Trees and traversals
+- Binary Tree Level Order Traversal
+- Diameter of Binary Tree
+- Balanced Binary Tree
+- Symmetric Tree
+- Path Sum
+- Delete Node in a BST
+- Validate Binary Search Tree
+- Max Area of Island
+- Binary Tree Right Side View
+
+Dynamic Programming
+- House Robber
+- Climbing Stairs
+- Best Time to Buy and Sell Stock with Cooldown
+- Longest Palindromic Substring
+- Maximum Subarray
+- Longest Increasing Subsequence
+
+Miscellaneous
+- LRU Cache
+- Min Stack
+- Kth Largest Element
+- Find Median from Data Stream
+- Course Schedule
+- Network Delay Time
+
+System design prompts
+
+System design general prompts
+- Design a software system.
+- Design a scalable service.
+- Reverse-engineer your favorite app.
+- Design Twitter.
+- Design TinyURL.
+- Design a parking lot system.
+- Design Uber.
+- Design Instagram.
+- Design a Tinder-like service.
+- Design an image upload/retrieval service.
+
+System design clarifying questions
+- Who is the customer?
+- What problem are we solving?
+- What are the core use cases?
+- What are functional requirements?
+- What are non-functional requirements?
+- What scale should we support?
+- What is the read/write ratio?
+- What latency do users expect?
+- What availability do we need?
+- What consistency do we need?
+- What are security/privacy requirements?
+
+System design deep-dive prompts
+- How will data be stored?
+- What APIs are needed?
+- What are the main components?
+- What are the relationships between components?
+- What are data flows?
+- How will the system scale?
+- Where will caching help?
+- How will load balancing work?
+- Should the database be relational or non-relational?
+- How will sharding work?
+- What happens if a component fails?
+- What are possible points of failure?
+- How can the design become more robust?
+- How will you monitor the system?
+- How will you troubleshoot performance problems?
+- What are deployment considerations?
+- What tradeoffs did you make?
+- What would you change with more time?
+
+Resume defense prompts
+For each technology on your resume:
+- Where did you use it?
+- Why did you choose it?
+- What alternatives did you consider?
+- What scale did it support?
+- What failure modes did you handle?
+- What tradeoffs did it create?
+- What would you improve?
+- What did you personally implement?
+- How did you test it?
+- What metrics improved?
+
+Why Amazon prompts
+- Why Amazon?
+- Why this role?
+- What customer problem interests you?
+- How would Amazon be mutually beneficial for you and the company?
+- What part of Amazon's builder culture appeals to you?
+- What technical scale or problem space excites you?
+
+Questions to ask interviewer
+- What customer problems is the team solving?
+- What systems would this role own?
+- What are the most important technical challenges?
+- What does success look like in the first 6 months?
+- How does the team measure operational health?
+- What are the biggest scaling bottlenecks?
+- How does the team balance new features with operational excellence?
+- What are common traits of successful engineers on this team?

@@ -1,0 +1,526 @@
+# 12-Week Study Plan and Leetcode Map
+
+Purpose
+This plan organizes the extracted Leetcode and technical-prep material into a practical study sequence. The uploaded PDF titled "12 Week Programme - Leetcode" includes a broad topic list; this file turns it into an executable preparation plan.
+
+Study allocation model
+For most SDE interviews, prioritize:
+- 80-90% coding/data structures/algorithms if coding is the main weakness
+- system design and behavioral practice in parallel
+- weekly review of OS/networking/databases
+- daily verbal explanation practice
+
+Weekly structure
+Each week:
+- 5 coding practice days
+- 1 design/behavioral practice day
+- 1 review/mock day
+
+Daily coding block:
+1. Review concept: 20-30 minutes
+2. Solve 2-4 problems: 90-150 minutes
+3. Write notes: 15 minutes
+4. Re-solve one previous problem without looking: 30 minutes
+5. State complexity aloud for each solution
+
+Week 1 - Data structures and LLD basics
+
+Topics:
+- lists
+- linked lists
+- stacks
+- queues
+- hash maps
+- hash sets
+- LRU cache
+- min/max stack
+- circular queue
+- tries
+- heap basics
+- BST basics
+- disjoint sets
+- segment tree awareness
+
+Problems:
+- Design Linked List
+- Implement Stack using Queues
+- Design Stack With Increment Operation
+- LRU Cache
+- Min Stack
+- Max Stack
+- Dinner Plate Stacks
+- Implement Queue using Stacks
+- Design Circular Queue
+- Design HashMap
+- Design HashSet
+- Binary Search Tree Iterator
+- Serialize and Deserialize BST
+- Kth Largest Element in a Stream
+- Implement Trie
+- Add and Search Word
+- Find Median from Data Stream
+
+Output:
+- one-page complexity table
+- implement LRU from memory
+- implement trie from memory
+- explain hash map collision handling
+
+Week 2 - Sorting and binary search
+
+Topics:
+- selection sort
+- bubble sort
+- insertion sort
+- merge sort
+- quicksort
+- counting sort
+- bucket sort
+- radix sort
+- binary search
+- lower/upper bound
+- search on answer
+
+Problems:
+- Merge Sorted Array
+- Sort Colors
+- Insertion Sort List
+- Sort an Array
+- Kth Largest Element in an Array
+- K Closest Points to Origin
+- Relative Sort Array
+- Convert Sorted List to BST
+- Top K Frequent Elements
+- Maximum Gap
+- Search Insert Position
+- Find First and Last Position
+- Search in Rotated Sorted Array
+
+Output:
+- compare sorting algorithms
+- write binary search template
+- list common off-by-one pitfalls
+
+Week 3 - Recursion, divide and conquer, trees
+
+Topics:
+- recursion
+- divide and conquer
+- tree traversals
+- tree recursion
+- recursion stack complexity
+- maximum subarray
+- constructing trees
+
+Problems:
+- Maximum Subarray
+- Binary Tree Preorder Traversal
+- Binary Tree Inorder Traversal
+- Binary Tree Postorder Traversal
+- Binary Tree Level Order Traversal
+- Binary Tree Level Order Traversal II
+- Maximum Depth of Binary Tree
+- Diameter of Binary Tree
+- Balanced Binary Tree
+- Symmetric Tree
+- Path Sum
+- Construct Binary Tree from Preorder and Inorder Traversal
+- Validate Binary Search Tree
+- Binary Tree Right Side View
+- Serialize and Deserialize N-ary Tree
+- Encode N-ary Tree to Binary Tree
+
+Output:
+- DFS/BFS templates
+- recursive return-value patterns
+- iterative traversal patterns
+
+Week 4 - Graphs I: BFS, DFS, topological sort
+
+Topics:
+- graph representation
+- BFS
+- DFS
+- connected components
+- cycle detection
+- bipartite graph
+- topological sort
+- grid graph traversal
+
+Problems:
+- N-ary Tree Preorder Traversal
+- N-ary Tree Postorder Traversal
+- N-ary Tree Level Order Traversal
+- Web Crawler
+- Web Crawler Multithreaded
+- Cut Off Trees for Golf Event
+- Course Schedule
+- Is Graph Bipartite?
+- Remove Invalid Parentheses
+- Max Area of Island
+- Number of Closed Islands
+- Keys and Rooms
+
+Output:
+- BFS template
+- DFS template
+- topological sort template
+- grid traversal template
+
+Week 5 - Graphs II: shortest path, MST, union-find, advanced graph
+
+Topics:
+- Dijkstra
+- Bellman-Ford
+- Floyd-Warshall
+- MST
+- strongly connected components
+- bridges
+- union-find
+- network flow awareness
+
+Problems:
+- Critical Connections in a Network
+- Cheapest Flights Within K Stops
+- Minimum Height Trees
+- Number of Operations to Make Network Connected
+- Connecting Cities With Minimum Cost
+- Network Delay Time
+- Reachable Nodes in Subdivided Graph
+- Shortest Path Visiting All Nodes
+- Find the City With the Smallest Number of Neighbors at a Threshold Distance
+- Evaluate Division
+- Largest Component Size by Common Factor
+
+Output:
+- union-find implementation from memory
+- Dijkstra template
+- explain when BFS is enough vs Dijkstra
+
+Week 6 - Dynamic programming I
+
+Topics:
+- memoization
+- tabulation
+- state definition
+- 1D DP
+- 2D DP
+- recurrence
+- base cases
+
+Problems:
+- Climbing Stairs
+- House Robber
+- Best Time to Buy and Sell Stock with Cooldown
+- Maximum Subarray
+- Longest Increasing Subsequence
+- Longest Common Subsequence
+- Integer Break
+- Unique Binary Search Trees
+- Unique Binary Search Trees II
+
+Output:
+- DP template
+- identify state/transition for each problem
+- re-solve three from memory
+
+Week 7 - Dynamic programming II and greedy
+
+Topics:
+- interval DP
+- knapsack/subset
+- partitioning
+- greedy strategy
+- exchange argument
+- scheduling
+
+Problems:
+- Burst Balloons
+- Longest Palindromic Substring
+- Partition Equal Subset Sum
+- Partition to K Equal Sum Subsets
+- Minimum Number of Arrows to Burst Balloons
+- Task Scheduler
+- Video Stitching
+- Set Intersection Size At Least Two
+- Non-overlapping Intervals
+- Binary Tree Cameras
+- Find the Shortest Superstring
+
+Output:
+- distinguish greedy vs DP
+- explain why greedy works for an interval problem
+- solve one hard DP slowly and document reasoning
+
+Week 8 - Strings, tries, and pattern matching
+
+Topics:
+- string manipulation
+- sliding window
+- hash-based matching
+- Rabin-Karp
+- KMP
+- tries
+- wildcard search
+- anagrams
+
+Problems:
+- Longest Common Prefix
+- Longest Substring Without Repeating Characters
+- Reverse String
+- Length of Last Word
+- Valid Anagram
+- Decode String
+- String Compression
+- Unique Email Addresses
+- Isomorphic Strings
+- Implement strStr()
+- Binary String With Substrings Representing 1 To N
+- Shortest Palindrome
+- Find All Anagrams in a String
+- Rotate String
+- Implement Trie
+- Add and Search Word
+
+Output:
+- sliding window template
+- trie template
+- KMP explanation at high level
+
+Week 9 - Math, number theory, and computational geometry
+
+Topics:
+- GCD/LCM
+- modular arithmetic
+- prime factorization
+- sieve
+- Fibonacci
+- Catalan numbers
+- combinations
+- geometry basics
+- convex hull awareness
+- closest points awareness
+
+Problems:
+- Greatest Common Divisor of Strings
+- X of a Kind in a Deck of Cards
+- Pow(x, n)
+- Sort Integers by The Power Value
+- Check If It Is a Good Array
+- Largest Component Size by Common Factor
+- Minimum Factorization
+- 2 Keys Keyboard
+- Bulb Switcher
+- Length of Longest Fibonacci Subsequence
+- Split Array into Fibonacci Sequence
+- Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
+- Count Primes
+- Prime Arrangements
+- K-th Smallest Prime Fraction
+- Nth Magical Number
+- Ugly Number III
+- Valid Triangle Number
+- Erect the Fence
+- The Skyline Problem
+- K Closest Points to Origin
+
+Output:
+- GCD implementation
+- sieve implementation
+- fast power implementation
+- notes on when math constraints matter
+
+Week 10 - OS, networking, databases, and system design foundations
+
+Topics:
+- OSI/TCP-IP
+- TCP vs UDP
+- DNS
+- HTTP basics
+- browser request flow
+- processes and threads
+- synchronization
+- deadlock
+- virtual memory
+- caching
+- SQL vs NoSQL
+- sharding
+- CAP theorem
+- eventual consistency
+- load balancers
+- API gateway
+- microservices
+
+Practice:
+- explain URL request lifecycle
+- explain process vs thread
+- explain mutex vs semaphore
+- design a cache
+- design TinyURL
+- design image storage
+- design Twitter feed at high level
+
+Output:
+- one system design template
+- one OS/networking cheat sheet
+- one SQL vs NoSQL tradeoff table
+
+Week 11 - Full system design and behavioral integration
+
+Topics:
+- end-to-end design
+- requirements
+- APIs
+- data model
+- caching
+- scaling
+- sharding
+- operational performance
+- failure modes
+- monitoring
+- Leadership Principles
+- STAR stories
+
+Practice designs:
+- TinyURL
+- Twitter
+- Instagram
+- Uber
+- Parking Lot System
+- Image upload/retrieval
+- Web crawler
+- Feed service
+
+Behavioral:
+- prepare 10-15 story titles
+- map stories to LPs
+- complete STAR details for each
+- practice 8 behavioral prompts aloud
+
+Output:
+- 3 full system design writeups
+- 10-15 story bank
+- 1-page LP mapping matrix
+
+Week 12 - Mock interviews and final review
+
+Coding:
+- 5 timed easy/medium sets
+- 3 timed medium/hard sets
+- re-solve missed problems
+- practice explaining complexity
+
+System design:
+- 3 whiteboard sessions
+- one read-heavy system
+- one write-heavy system
+- one real-time/geo-scale system
+
+Behavioral:
+- 5 mock LP questions
+- focus on concise STAR delivery
+- practice follow-ups
+
+Final outputs:
+- personal coding templates
+- top 30 re-solve list
+- final STAR story bank
+- system design checklist
+- resume defense notes
+- questions for interviewer
+
+High-frequency Leetcode classics from quick guide
+- Valid Parentheses
+- Two Sum
+- Longest Common Prefix
+- Merge Sorted Array
+- Best Time to Buy and Sell Stock
+- Maximum Depth of Binary Tree
+- Search Insert Position
+- Merge K Sorted Lists
+- Find First and Last Position of Element in Sorted Array
+- Longest Substring Without Repeating Characters
+- Search in Rotated Sorted Array
+- Remove Duplicates from Sorted Array
+- Container With Most Water
+- Valid Sudoku
+- Top K Frequent Elements
+- Reverse String
+- Length of Last Word
+- Valid Anagram
+- Decode String
+- String Compression
+- Unique Email Addresses
+- Isomorphic Strings
+- Reverse Linked List
+- Remove Nth Node From End of List
+- Swap Nodes in Pairs
+- Add Two Numbers
+- Palindrome Linked List
+- Copy Linked List with Random Pointer
+- Linked List Cycle
+- Odd-Even Linked List
+- Binary Tree Level Order Traversal
+- Diameter of Binary Tree
+- Balanced Binary Tree
+- Symmetric Tree
+- Path Sum
+- Delete Node in a BST
+- Validate Binary Search Tree
+- Max Area of Island
+- Binary Tree Right Side View
+- House Robber
+- Climbing Stairs
+- Best Time to Buy and Sell Stock with Cooldown
+- Longest Palindromic Substring
+- Maximum Subarray
+- Longest Increasing Subsequence
+- LRU Cache
+- Min Stack
+
+Practice scoring rubric
+
+For each coding problem, score 0-2:
+- clarification
+- brute force baseline
+- optimal approach
+- correctness
+- code quality
+- edge cases
+- tests
+- complexity
+- communication
+- recovery from mistakes
+
+Target:
+- 16+/20 consistently before interview
+
+For each system design, score 0-2:
+- customer/problem framing
+- requirements
+- scale
+- APIs
+- data model
+- architecture
+- tradeoffs
+- failure modes
+- operations
+- communication
+
+Target:
+- 16+/20 consistently before interview
+
+For each behavioral answer, score 0-2:
+- answers question
+- specific situation
+- clear task/stakes
+- individual action
+- obstacle/tradeoff
+- metrics
+- learning
+- LP alignment
+- concise structure
+- handles follow-up
+
+Target:
+- 16+/20 consistently before interview

@@ -1,0 +1,667 @@
+# Coding, Data Structures, and Algorithms
+
+Core coding expectation
+Amazon expects production-like code in interviews:
+- syntactically correct
+- not pseudocode
+- scalable
+- robust
+- readable
+- maintainable
+- well-tested
+- close to production-ready under interview constraints
+
+Phone interview coding
+Typical environment:
+- one coding problem
+- language of your choice
+- live coding
+- no IDE/compiler
+- interviewer expects you to explain as you code
+
+Recommended language strategy
+Pick the language you are most comfortable with and stick with it.
+You should know:
+- syntax
+- standard library collections
+- memory behavior or runtime model
+- common pitfalls
+- idioms
+- sorting APIs
+- heap/priority queue API
+- hash map/hash set behavior
+- string/list operations and complexities
+
+Common acceptable languages mentioned:
+- Java
+- Python
+- C#
+- C/C++
+- Ruby
+
+What to know about your language
+- arrays/lists
+- hash maps/dictionaries
+- hash sets
+- stacks/queues/deques
+- heaps/priority queues
+- recursion limits
+- object/class syntax
+- comparator syntax
+- string immutability/mutability
+- memory management basics
+- common libraries and collections
+- integer overflow behavior
+- pass-by-value/reference semantics
+
+Coding interview process
+
+1. Restate the problem
+Confirm inputs and expected output.
+
+2. Ask clarifying questions
+Examples:
+- Can input be empty?
+- Are values unique?
+- Are values sorted?
+- Can numbers be negative?
+- What are the constraints?
+- Do we optimize for time or memory?
+- Is mutation allowed?
+- Are duplicates possible?
+- Should I return any valid solution or all solutions?
+- What should happen on invalid input?
+
+3. Identify examples
+Walk through at least one normal case and one edge case.
+
+4. Propose brute force
+Briefly state the simplest approach and complexity.
+
+5. Improve
+Introduce better data structure or algorithm.
+
+6. Explain tradeoff
+State why this approach is appropriate.
+
+7. Code
+Write simple, modular, readable code.
+
+8. Test
+Run through:
+- normal case
+- edge case
+- empty input
+- single element
+- duplicate values
+- negative values
+- large input
+- invalid input if relevant
+
+9. Complexity
+State time and space complexity.
+
+10. Improvements
+Explain what you would improve with more time.
+
+Production-like coding rules
+
+A. Use descriptive variable names
+Avoid:
+- a, b, c, x unless obvious
+Prefer:
+- left, right
+- start, end
+- count_by_value
+- visited
+- queue
+- candidate
+- result
+
+B. Modularize when useful
+Use helper functions when they reduce complexity:
+- dfs()
+- bfs()
+- is_valid()
+- build_graph()
+- binary_search()
+- expand_from_center()
+- merge()
+
+C. Avoid unnecessary cleverness
+Simple correct code beats obscure code.
+
+D. Handle edge cases explicitly
+Amazon prep repeatedly emphasizes edge cases.
+
+E. Add tests
+Interviewers expect you to scan code for errors and add test cases.
+
+F. Explain complexity
+Big-O is expected in nearly every technical interview.
+
+Data structures to understand deeply
+
+1. Arrays / dynamic arrays / lists
+Know:
+- indexing O(1)
+- append amortized O(1)
+- insert/delete middle O(n)
+- memory locality
+- sorting
+- two pointers
+- prefix sums
+- sliding window
+
+Common problems:
+- Two Sum
+- Merge Sorted Array
+- Best Time to Buy and Sell Stock
+- Search Insert Position
+- Find First and Last Position of Element in Sorted Array
+- Search in Rotated Sorted Array
+- Remove Duplicates from Sorted Array
+- Container With Most Water
+- Valid Sudoku
+- Top K Frequent Elements
+- Maximum Subarray
+- Sort Colors
+- Relative Sort Array
+- Maximum Gap
+
+Patterns:
+- two pointers
+- sliding window
+- prefix sums
+- binary search
+- sorting + scan
+- hash map lookup
+- heap for top-k
+
+2. Strings
+Know:
+- immutability
+- character counting
+- substring costs
+- hash maps
+- tries for prefixes
+- KMP/Rabin-Karp basics for matching
+
+Common problems:
+- Longest Common Prefix
+- Longest Substring Without Repeating Characters
+- Reverse String
+- Length of Last Word
+- Valid Anagram
+- Decode String
+- String Compression
+- Unique Email Addresses
+- Isomorphic Strings
+- Implement strStr()
+- Find All Anagrams in a String
+- Shortest Palindrome
+- Rotate String
+- Binary String With Substrings Representing 1 To N
+
+Patterns:
+- frequency maps
+- sliding window
+- stack parsing
+- two pointers
+- rolling hash
+- prefix function/KMP
+- trie
+
+3. Linked lists
+Know:
+- pointer manipulation
+- dummy node
+- fast/slow pointers
+- reversing
+- cycle detection
+- merge patterns
+
+Common problems:
+- Design Linked List
+- Reverse Linked List
+- Remove Nth Node From End of List
+- Swap Nodes in Pairs
+- Add Two Numbers
+- Palindrome Linked List
+- Copy Linked List With Random Pointer
+- Linked List Cycle
+- Odd-Even Linked List
+- Insertion Sort List
+- Convert Sorted List to Binary Search Tree
+
+Patterns:
+- dummy head
+- fast/slow pointer
+- in-place reversal
+- two-list merge
+- hash map for random pointers
+- Floyd cycle detection
+
+4. Stacks
+Know:
+- LIFO
+- monotonic stacks
+- parsing
+- min/max stack augmentation
+
+Common problems:
+- Valid Parentheses
+- Implement Stack using Queues
+- Design Stack With Increment Operation
+- Min Stack
+- Max Stack
+- Dinner Plate Stacks
+- Remove Invalid Parentheses
+- Decode String
+
+Patterns:
+- matching brackets
+- monotonic increasing/decreasing stack
+- auxiliary min/max stack
+- stack for recursion simulation
+
+5. Queues / deques
+Know:
+- FIFO
+- BFS
+- sliding window maximum
+- circular queue
+- queue with stacks
+
+Common problems:
+- Implement Queue using Stacks
+- Design Circular Queue
+- Binary Tree Level Order Traversal
+- Web Crawler
+- Web Crawler Multithreaded
+- Cut Off Trees for Golf Event
+
+Patterns:
+- BFS levels
+- multi-source BFS
+- queue + visited set
+- deque for sliding windows
+
+6. Hash tables
+Know:
+- average O(1)
+- collision behavior at a high level
+- memory tradeoff
+- hashable keys
+- frequency counting
+- deduplication
+
+Common problems:
+- Two Sum
+- Design HashMap
+- Design HashSet
+- Valid Anagram
+- Top K Frequent Elements
+- Longest Substring Without Repeating Characters
+- Evaluate Division
+
+Patterns:
+- count by key
+- index lookup
+- adjacency lists
+- grouping
+- memoization
+
+7. Trees
+Know:
+- traversal order
+- recursion
+- iterative traversal
+- BST properties
+- serialization
+- lowest common ancestor
+- height/depth
+- balanced vs unbalanced behavior
+
+Common problems:
+- Maximum Depth of Binary Tree
+- Binary Tree Level Order Traversal
+- Binary Tree Level Order Traversal II
+- Binary Tree Preorder Traversal
+- Binary Tree Inorder Traversal
+- Binary Tree Postorder Traversal
+- Diameter of Binary Tree
+- Balanced Binary Tree
+- Symmetric Tree
+- Path Sum
+- Delete Node in a BST
+- Validate Binary Search Tree
+- Binary Tree Right Side View
+- Binary Search Tree Iterator
+- Serialize and Deserialize BST
+- Serialize and Deserialize N-ary Tree
+- Encode N-ary Tree to Binary Tree
+- Unique Binary Search Trees
+- Unique Binary Search Trees II
+- Binary Tree Cameras
+
+Patterns:
+- DFS recursion with return values
+- BFS level traversal
+- validate bounds for BST
+- postorder for subtree aggregation
+- serialization with markers
+- tree DP
+
+8. Heaps / priority queues
+Know:
+- push/pop O(log n)
+- peek O(1)
+- top-k
+- streaming median
+- k-way merge
+
+Common problems:
+- Kth Largest Element in a Stream
+- Kth Largest Element in an Array
+- K Closest Points to Origin
+- Merge K Sorted Lists
+- Find Median from Data Stream
+- Top K Frequent Elements
+- Cheapest Flights Within K Stops
+
+Patterns:
+- min heap for k largest
+- max heap for k smallest
+- two heaps for median
+- heap + graph traversal
+- heap + sorted streams
+
+9. Tries
+Know:
+- prefix search
+- word search
+- memory tradeoff
+- suffix/prefix variants
+
+Common problems:
+- Implement Trie
+- Add and Search Word
+- prefix lookup problems
+
+10. Graphs
+Know:
+- adjacency list/matrix
+- directed vs undirected
+- weighted vs unweighted
+- BFS/DFS
+- topological sort
+- union-find
+- shortest path
+- MST
+- strongly connected components
+
+Common problems:
+- Course Schedule
+- Is Graph Bipartite?
+- Number of Operations to Make Network Connected
+- Critical Connections in a Network
+- Minimum Height Trees
+- Cheapest Flights Within K Stops
+- Network Delay Time
+- Reachable Nodes in Subdivided Graph
+- Shortest Path Visiting All Nodes
+- Evaluate Division
+- Find the City With the Smallest Number of Neighbors at a Threshold Distance
+- Keys and Rooms
+- Shortest Path to Get All Keys
+- Max Area of Island
+- Number of Closed Islands
+- Path With Maximum Minimum Value
+- Connecting Cities With Minimum Cost
+
+Patterns:
+- BFS for shortest path in unweighted graph
+- DFS for components/cycles
+- topological sort for dependencies
+- union-find for connectivity
+- Dijkstra for non-negative weighted shortest paths
+- Bellman-Ford for negative edges or limited stops variants
+- Floyd-Warshall for all-pairs shortest paths on smaller graphs
+- Tarjan for bridges/SCCs
+- Prim/Kruskal for MST
+
+Algorithm topics to review
+
+1. Sorting
+Know:
+- selection sort
+- bubble sort
+- insertion sort
+- merge sort
+- quicksort
+- counting sort
+- bucket sort
+- radix sort
+- topological sort
+- tree sort
+
+Important tradeoffs:
+- comparison sort lower bound O(n log n)
+- merge sort stable, O(n) extra space
+- quicksort average O(n log n), worst O(n^2)
+- counting/radix/bucket depend on constraints
+- insertion sort useful for nearly sorted data
+
+2. Divide and conquer
+Know:
+- maximum subarray
+- merge sort
+- quicksort
+- recurrence analysis
+- recursion tree method
+- master theorem
+
+3. Dynamic programming
+Know:
+- overlapping subproblems
+- optimal substructure
+- top-down memoization
+- bottom-up tabulation
+- state definition
+- transition
+- base cases
+- space optimization
+
+Common problems:
+- Climbing Stairs
+- House Robber
+- Best Time to Buy and Sell Stock with Cooldown
+- Longest Palindromic Substring
+- Longest Increasing Subsequence
+- Longest Common Subsequence
+- Maximum Subarray
+- Integer Break
+- Burst Balloons
+- Unique Binary Search Trees
+- Partition Equal Subset Sum
+- Partition to K Equal Sum Subsets
+- Palindrome Partitioning II
+
+DP answer template:
+- Define state: dp[i] means...
+- Define transition: dp[i] = ...
+- Base case: ...
+- Iteration order: ...
+- Result: ...
+- Complexity: ...
+
+4. Greedy algorithms
+Know:
+- when local choices can be globally optimal
+- exchange argument
+- sorting + greedy
+- interval scheduling
+- Huffman coding
+- task scheduling
+
+Common problems:
+- Minimum Number of Arrows to Burst Balloons
+- Task Scheduler
+- Non-overlapping Intervals
+- Video Stitching
+- Set Intersection Size At Least Two
+- Minimum Cost Tree From Leaf Values
+
+5. Binary search
+Know:
+- standard binary search
+- lower bound / upper bound
+- binary search on answer
+- monotonic predicates
+- rotated arrays
+
+Common problems:
+- Search Insert Position
+- Find First and Last Position
+- Search in Rotated Sorted Array
+- Kth Smallest Prime Fraction
+- Nth Magical Number
+
+6. Recursion / backtracking
+Know:
+- base case
+- choice
+- constraints
+- undo/revert
+- pruning
+
+Common problems:
+- Remove Invalid Parentheses
+- Partition to K Equal Sum Subsets
+- Split Array into Fibonacci Sequence
+- factor combinations
+
+7. Union-find / disjoint set
+Know:
+- path compression
+- union by rank/size
+- near O(1) amortized operations
+- connectivity components
+
+Common problems:
+- Number of Operations to Make Network Connected
+- Largest Component Size by Common Factor
+- accounts/islands-style connectivity problems
+
+8. Segment trees / interval trees
+Know:
+- range query
+- range update
+- lazy propagation
+- dynamic segment tree
+
+Common topics:
+- Count of Range Sum
+- Range Sum Queries
+- Lazy Dynamic Segment Tree
+
+9. Math and number theory
+Know:
+- GCD/LCM
+- prime checks
+- sieve
+- modular arithmetic
+- factorial
+- combinations
+- Catalan numbers
+- Fibonacci
+- Chinese remainder theorem at high level
+- factorization
+
+Common problems:
+- Greatest Common Divisor of Strings
+- X of a Kind in a Deck of Cards
+- Pow(x, n)
+- Sort Integers by Power Value
+- Check If It Is a Good Array
+- Largest Component Size by Common Factor
+- Minimum Factorization
+- 2 Keys Keyboard
+- Bulb Switcher
+- Count Primes
+- Prime Arrangements
+- Ugly Number III
+- Length of Longest Fibonacci Subsequence
+- Find Minimum Number of Fibonacci Numbers Whose Sum Is K
+- Valid Triangle Number
+
+Big-O knowledge
+
+Be ready to state:
+- time complexity
+- space complexity
+- worst case vs average case if relevant
+- recursion stack space
+- preprocessing vs query cost
+- amortized cost
+- impact of input dimensions, e.g. O(V + E), O(mn), O(n log k)
+
+Common complexities:
+- array scan: O(n)
+- hash map lookup: average O(1)
+- sorting: O(n log n)
+- heap push/pop: O(log n)
+- BFS/DFS graph: O(V + E)
+- binary search: O(log n)
+- dynamic programming grid: O(mn)
+- pairwise comparison: O(n^2)
+- backtracking: often exponential
+
+Coding edge-case checklist
+
+Input shape:
+- empty input
+- null input if language requires
+- one element
+- two elements
+- large input
+- already sorted
+- reverse sorted
+- all duplicates
+- no solution
+- multiple solutions
+- negative numbers
+- zeros
+- overflow
+- disconnected graph
+- cyclic graph
+- deep recursion
+- duplicate edges
+- self loops
+- invalid characters
+- Unicode/string assumptions if relevant
+
+Testing template
+After writing code, say:
+"I will test a normal case, a boundary case, and a failure/no-solution case."
+
+Example categories:
+- normal: [2,7,11,15], target 9
+- edge: [], [1], duplicate values
+- stress: large n, skewed tree, dense graph
+- invalid: impossible target, missing key
+
+Coding answer failure modes
+- no clarification
+- no brute-force baseline
+- premature optimization
+- no complexity
+- no tests
+- vague variable names
+- hidden assumptions
+- failure to handle empty inputs
+- incorrect recursion base case
+- off-by-one binary search error
+- using global mutable state unnecessarily
+- not explaining tradeoffs

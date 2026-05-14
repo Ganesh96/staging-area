@@ -24,9 +24,3 @@ source_notes:
 
 ## Related notes
 - [[Model - Reusable Prompt Spec Pattern]]
-
-## Process context
-- [[LISTS Processing Batch Report]]
-- [[LISTS Quality Review]]
-- [[LISTS Corrections]]
-- [[LISTS Quality Review v2]]
