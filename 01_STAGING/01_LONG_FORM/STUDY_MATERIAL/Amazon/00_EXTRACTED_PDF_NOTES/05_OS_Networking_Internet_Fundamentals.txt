@@ -1,0 +1,340 @@
+# Operating Systems, Networking, and Internet Fundamentals
+
+Why this matters
+Amazon prep materials mention OS, networking, and internet fundamentals because performance, scalability, and reliability depend on them. You do not need to build an OS or be a network engineer, but you should understand concepts that affect code behavior and system design.
+
+Operating systems topics
+
+1. Processes
+A process is an isolated running program with its own address space.
+
+Know:
+- process creation
+- process isolation
+- context switching
+- inter-process communication
+- fork at high level
+
+Interview relevance:
+- service isolation
+- resource usage
+- concurrency models
+
+2. Threads
+A thread is an execution unit inside a process. Threads share process memory.
+
+Know:
+- shared memory
+- stack per thread
+- race conditions
+- synchronization
+- context switching
+- thread pools
+
+Process vs thread
+Process:
+- stronger isolation
+- higher overhead
+- separate memory
+
+Thread:
+- lower overhead
+- shared memory
+- easier communication
+- harder correctness due to races
+
+3. Multithreading
+Understand:
+- parallelism vs concurrency
+- shared mutable state
+- locking
+- deadlocks
+- starvation
+- thread safety
+- producer-consumer pattern
+- readers-writers problem
+- dining philosophers problem
+
+4. Synchronization
+Mechanisms:
+- mutex
+- semaphore
+- condition variable
+- lock
+- monitor
+- atomic operations
+
+Mutex:
+- mutual exclusion
+- one thread enters critical section
+
+Semaphore:
+- controls access to finite resource count
+
+Common pitfalls:
+- forgetting to unlock
+- deadlock from lock ordering
+- race condition
+- lost wakeup
+- priority inversion
+- too much lock contention
+
+5. Deadlock
+Four conditions:
+- mutual exclusion
+- hold and wait
+- no preemption
+- circular wait
+
+Prevention:
+- consistent lock ordering
+- timeout
+- avoid nested locks
+- reduce shared state
+- detect and recover
+
+6. Memory management
+Know:
+- stack vs heap
+- allocation/deallocation
+- garbage collection if language uses it
+- memory leaks
+- paging
+- virtual memory
+- locality
+
+Interview relevance:
+- performance
+- scalability
+- large inputs
+- recursion stack overflow
+- object allocation overhead
+
+7. Paging and virtual memory
+Virtual memory gives each process an address space and maps virtual pages to physical memory.
+
+Know:
+- page faults
+- swapping
+- memory locality
+- TLB at high level
+
+8. Scheduling
+Understand that OS scheduling determines how CPU time is assigned.
+
+Basic scheduling concepts:
+- round-robin
+- priority scheduling
+- fairness
+- starvation
+- preemption
+
+9. Cache
+Types:
+- CPU cache
+- OS page cache
+- application cache
+- distributed cache
+
+Concepts:
+- locality
+- cache hit/miss
+- invalidation
+- eviction
+- consistency
+
+10. Kernels
+Kernel manages:
+- CPU scheduling
+- memory
+- devices
+- system calls
+- process/thread management
+
+Classic OS problems mentioned in study list
+- producer-consumer
+- dining philosophers
+- cigarette smokers
+- readers-writers
+- scheduling algorithms
+- deadlock
+- virtual memory
+- mutex and semaphore
+- kernels
+- paging
+- multithreaded web crawler
+
+Concurrency interview checklist
+When discussing concurrent code:
+- what shared state exists?
+- who writes it?
+- who reads it?
+- what lock protects it?
+- can deadlock happen?
+- can data races happen?
+- can operations be made idempotent?
+- is ordering required?
+- can work be partitioned?
+- is thread pool size bounded?
+- how are failures/retries handled?
+
+Networking topics
+
+1. OSI model
+High-level layers:
+- physical
+- data link
+- network
+- transport
+- session
+- presentation
+- application
+
+You rarely need full detail, but know where IP, TCP/UDP, TLS, HTTP, DNS fit.
+
+2. TCP/IP model
+Common layers:
+- link
+- internet
+- transport
+- application
+
+3. TCP
+Transmission Control Protocol provides:
+- connection-oriented communication
+- reliable delivery
+- ordered byte stream
+- flow control
+- congestion control
+- retransmission
+
+Costs:
+- connection setup
+- overhead
+- head-of-line blocking
+
+Use for:
+- HTTP/HTTPS
+- reliable APIs
+- database connections
+
+4. UDP
+User Datagram Protocol provides:
+- connectionless datagrams
+- lower overhead
+- no built-in reliability/order
+
+Use for:
+- DNS
+- streaming
+- real-time communication
+- cases where application handles reliability
+
+5. DNS
+DNS maps domain names to IP addresses.
+
+Browser flow includes:
+- DNS lookup
+- TCP connection
+- TLS handshake for HTTPS
+- HTTP request
+- server processing
+- response
+- rendering
+
+6. HTTP/HTTPS basics
+Know:
+- request/response
+- methods: GET, POST, PUT, PATCH, DELETE
+- status codes: 2xx, 3xx, 4xx, 5xx
+- headers
+- body
+- cookies/tokens
+- TLS for HTTPS
+
+7. Socket connections
+Sockets represent network communication endpoints.
+
+Know:
+- IP + port
+- client/server
+- connection lifecycle
+- timeouts
+
+8. Firewalls
+Control traffic based on:
+- IP
+- port
+- protocol
+- rules/security groups
+
+9. Domains and workgroups
+Understand at high level:
+- domain naming
+- DNS hierarchy
+- internal/external domains
+
+10. ICMP
+Used for network diagnostics such as ping.
+
+Internet fundamentals checklist
+Be able to explain:
+- what happens when user enters a URL
+- DNS lookup
+- TCP/TLS handshake
+- HTTP request
+- load balancer routing
+- application service
+- database/cache
+- response
+- browser rendering at high level
+
+What happens when a browser loads a page
+1. Browser checks cache.
+2. DNS resolves domain to IP.
+3. Browser opens TCP connection.
+4. TLS handshake happens for HTTPS.
+5. Browser sends HTTP request.
+6. Load balancer routes to backend.
+7. Backend executes logic and reads/writes cache/database.
+8. Server returns HTTP response.
+9. Browser parses HTML/CSS/JS and loads dependent resources.
+10. Page is rendered.
+
+Networking tradeoffs
+TCP vs UDP:
+- reliability/order vs low overhead/latency
+
+Long polling vs WebSockets:
+- simpler compatibility vs persistent bidirectional connection
+
+REST vs RPC:
+- resource-oriented simplicity vs action-oriented efficiency
+
+Synchronous HTTP vs async queue:
+- immediate response vs decoupled processing
+
+OS/networking failure modes
+- thread leak
+- memory leak
+- deadlock
+- connection leak
+- timeout too high/low
+- retry storm
+- packet loss
+- DNS failure
+- TLS misconfiguration
+- overloaded server
+- queue buildup
+- cache stampede
+- thundering herd
+- rate limit exceeded
+- slow database connection pool exhaustion
+
+Interview answer template for OS/networking
+"The relevant OS/networking constraint is [constraint]. It affects [latency/throughput/memory/reliability]. I would handle it with [mechanism], and monitor [metric]. The tradeoff is [tradeoff]."
+
+Examples
+- For a multithreaded crawler, use a bounded thread pool, shared visited set protected by synchronization, queue for URLs, per-host rate limiting, timeout handling, and deduplication.
+- For a high-throughput API, use connection pooling, timeouts, load balancing, caching, and backpressure.
+- For shared mutable state, use locks or design to avoid sharing state.

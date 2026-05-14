@@ -1,0 +1,545 @@
+# Behavioral Interview, Amazon Leadership Principles, and STAR Story System
+
+Core expectation
+Amazon behavioral interviews evaluate how you have demonstrated Leadership Principles in real professional situations. Interviewers want specific examples, individual ownership, data, tradeoffs, and learning.
+
+Primary answer format: STAR
+
+Situation
+Describe the context:
+- where it occurred
+- when it happened
+- background
+- relevant constraints
+- what was at stake
+
+Task
+Describe your responsibility:
+- your role
+- goal
+- why it mattered
+- risks or consequences if nothing changed
+
+Action
+Describe what you personally did:
+- specific steps
+- decisions made
+- influence used
+- obstacles faced
+- tradeoffs
+- mechanisms created
+- how you handled conflict or ambiguity
+
+Result
+Describe outcome:
+- metrics
+- customer/business impact
+- quality improvement
+- lessons learned
+- what you would do differently
+- long-term mechanism or prevention
+
+Critical rule
+Use "I", not "we", when describing actions. Team context is allowed, but the interviewer is evaluating your contribution.
+
+STAR quality bar
+A strong STAR answer has:
+- specific event, not generic pattern
+- clear stakes
+- personal ownership
+- concrete actions
+- obstacles
+- tradeoffs
+- measurable result
+- learning/reflection
+- Leadership Principle alignment
+
+Weak answer patterns:
+- "We worked on..."
+- no metrics
+- no obstacle
+- no decision
+- no tradeoff
+- no failure or tension
+- too scripted
+- not answering question asked
+- vague claims like "I communicated well"
+
+Build a story bank
+
+Step 1 - List significant professional moments
+Create 10-15 moments from recent roles:
+- goals achieved
+- risks taken
+- failures
+- conflict
+- ambiguity
+- technical depth
+- customer impact
+- operational incident
+- mentorship
+- quality improvement
+- process improvement
+- deadline pressure
+- wrong decision corrected
+- disagreement
+- invention/simplification
+- cost reduction
+
+Step 2 - Fill STAR details
+For each moment:
+Situation:
+- context/background
+- where/when
+- goal
+
+Task:
+- your role
+- what you were trying to achieve
+- why important
+- risks if nothing happened
+
+Action:
+- what you personally owned
+- how you did it
+- how you influenced outcome
+- who else was involved
+- biggest obstacle
+
+Result:
+- how success was measured
+- results and metrics
+- tradeoffs made
+- learning or what you would do differently
+
+Step 3 - Map to Leadership Principles
+Each story can map to multiple principles. Use this to avoid needing 16 separate stories.
+
+Step 4 - Prepare follow-up details
+Interviewers will dive deep.
+Prepare:
+- exact metrics
+- timeline
+- alternatives
+- why you chose the approach
+- what failed
+- how you handled pushback
+- what you learned
+- what mechanism prevented recurrence
+
+Leadership Principles and interview interpretation
+
+1. Customer Obsession
+Definition:
+Leaders start with the customer and work backwards. They earn and keep customer trust. They pay attention to competitors but obsess over customers.
+
+What interviewers look for:
+- understanding customer pain
+- prioritizing customer impact
+- making tradeoffs for customer trust
+- recovering from missed expectations
+- measuring customer outcomes
+
+Story types:
+- improved customer experience
+- fixed customer-impacting defect
+- prioritized customer needs under constraints
+- apologized/recovered from failure
+- changed roadmap due to customer signal
+
+Prompts:
+- Who was your most difficult customer?
+- Tell me about a time you did not meet a client/customer expectation.
+- How do you prioritize needs across many customers?
+- Tell the story of the last time you had to apologize to someone.
+
+2. Ownership
+Definition:
+Leaders think long term, act on behalf of the entire company, and never say "that is not my job."
+
+What interviewers look for:
+- taking responsibility beyond assigned scope
+- long-term thinking
+- accepting outcomes
+- persistence
+- initiative
+- business/customer judgment
+
+Story types:
+- fixed issue outside your direct ownership
+- owned ambiguous project
+- took responsibility for failure
+- improved system/process long term
+- prevented recurring incidents
+
+Prompts:
+- Tell me about a time you had to leave a task unfinished.
+- Tell me about a time you worked on a project with unclear responsibilities.
+- Give an example of a risk you took that failed.
+
+3. Invent and Simplify
+Definition:
+Leaders innovate and simplify. They seek ideas from everywhere and are not limited by "not invented here."
+
+What interviewers look for:
+- simplification of complex systems/processes
+- invention under constraints
+- external awareness
+- practical innovation
+- reducing operational burden
+
+Story types:
+- simplified architecture
+- automated manual process
+- created new tool
+- reduced complexity
+- improved developer/customer workflow
+
+Prompts:
+- Tell me about a time you gave a simple solution to a complex problem.
+- Tell me about a time you created a new way of doing something that gave a competitive advantage.
+- Tell me about an out-of-the-box idea and its impact.
+
+4. Are Right, A Lot
+Definition:
+Leaders have strong judgment and seek diverse perspectives. They work to disconfirm beliefs.
+
+What interviewers look for:
+- sound judgment under uncertainty
+- data-informed decisions
+- willingness to challenge own assumptions
+- learning from being wrong
+- seeking perspectives
+
+Story types:
+- made decision with incomplete data
+- changed mind after evidence
+- predicted risk others missed
+- corrected wrong assumption
+- used metrics + anecdote
+
+Prompts:
+- Tell me about a time you were wrong.
+- Tell me about a time you worked with incomplete data.
+- Tell me about a solution others doubted that turned out right.
+
+5. Learn and Be Curious
+Definition:
+Leaders keep learning and explore new possibilities.
+
+What interviewers look for:
+- self-driven learning
+- feedback seeking
+- skill development
+- curiosity leading to impact
+- adapting quickly
+
+Story types:
+- learned new tech to solve problem
+- sought feedback and improved
+- asked questions that changed direction
+- explored new approach
+- developed skill outside required scope
+
+Prompts:
+- Tell me about a time you influenced change by only asking questions.
+- Tell me about a time you solved a problem through superior knowledge or observation.
+
+6. Hire and Develop the Best
+Definition:
+Leaders raise the performance bar, recognize talent, develop leaders, and coach others.
+
+What interviewers look for:
+- mentorship
+- raising standards
+- coaching
+- feedback
+- helping others grow
+- dealing with poor performance constructively
+
+Story types:
+- mentored junior engineer
+- improved onboarding
+- gave difficult feedback
+- coached teammate through issue
+- created development mechanism
+
+Prompts:
+- Tell me about a time you mentored someone.
+- Tell me about a time you dealt with a poor performer.
+
+7. Insist on the Highest Standards
+Definition:
+Leaders continually raise the bar and ensure defects are fixed so they stay fixed.
+
+What interviewers look for:
+- quality ownership
+- refusing shortcuts
+- mechanisms for prevention
+- technical excellence
+- constructive behavior under pressure
+
+Story types:
+- improved code quality
+- prevented defect from shipping
+- built test automation
+- raised review standards
+- fixed root cause instead of symptom
+- refused to compromise standards
+
+Prompts:
+- Tell me about a time you could not meet your own expectations.
+- Tell me about a time a team member did not meet your expectations.
+- Tell me about a time you refused to compromise code quality.
+
+8. Think Big
+Definition:
+Leaders create and communicate bold direction and look around corners for ways to serve customers.
+
+What interviewers look for:
+- vision beyond immediate task
+- scaling impact
+- customer-focused future thinking
+- bold but practical direction
+- communicating roadmap
+
+Story types:
+- expanded scope for larger impact
+- proposed long-term architecture
+- identified future customer need
+- turned local fix into platform improvement
+
+Prompts:
+- Tell me about your proudest professional achievement.
+- Tell me about a time you went beyond project scope and delivered.
+
+9. Bias for Action
+Definition:
+Speed matters. Many decisions are reversible and do not need extensive study. Calculated risk is valued.
+
+What interviewers look for:
+- acting quickly with enough information
+- identifying reversible decisions
+- calculated risk
+- unblocking others
+- urgency without recklessness
+
+Story types:
+- acted before perfect data
+- fixed urgent problem
+- made reversible decision quickly
+- drove stalled project
+- got information from unresponsive stakeholder
+
+Prompts:
+- Describe a time you saw a problem and took initiative.
+- Tell me about a calculated risk.
+- Tell me about getting information from someone unresponsive.
+- Tell me about making a decision without time to weigh all options.
+
+10. Frugality
+Definition:
+Accomplish more with less. Constraints breed resourcefulness.
+
+What interviewers look for:
+- resource constraints
+- cost awareness
+- clever simplification
+- avoiding unnecessary headcount/budget
+- ROI thinking
+
+Story types:
+- reduced cloud cost
+- optimized resource usage
+- delivered without extra headcount
+- reused existing system
+- automated manual work
+
+Prompts:
+- Tell me about working with limited time/resources.
+- Tell me about needing a bigger budget but not getting it.
+- Tell me about saving money for the company.
+
+11. Earn Trust
+Definition:
+Leaders listen, speak candidly, treat others respectfully, are vocally self-critical, and benchmark against the best.
+
+What interviewers look for:
+- candid communication
+- humility
+- respect
+- trust repair
+- self-criticism
+- conflict handling
+
+Story types:
+- admitted mistake
+- delivered harsh truth respectfully
+- rebuilt trust
+- handled stakeholder conflict
+- sought feedback
+
+Prompts:
+- What would you do if your closest friend at work was stealing?
+- Tell me about a time you told someone a harsh truth.
+- Tell me about a time you earned trust of a group.
+
+12. Dive Deep
+Definition:
+Leaders operate at all levels, stay connected to details, audit frequently, and are skeptical when metrics and anecdote differ.
+
+What interviewers look for:
+- technical depth
+- root cause analysis
+- data investigation
+- debugging
+- auditing
+- connecting metrics and details
+
+Story types:
+- investigated production issue
+- found root cause in data
+- discovered metric discrepancy
+- debugged hard technical issue
+- improved observability
+
+Prompts:
+- Tell me about a time you devised a new way of looking at data.
+- Describe personally resolving a challenging technical situation.
+- Tell me about diving deep into data and results achieved.
+
+13. Have Backbone; Disagree and Commit
+Definition:
+Leaders respectfully challenge decisions when they disagree, then commit once a decision is made.
+
+What interviewers look for:
+- respectful disagreement
+- conviction
+- evidence-based challenge
+- courage
+- commitment after decision
+
+Story types:
+- challenged technical approach
+- disagreed with manager
+- pushed back on timeline/quality
+- committed after team decision
+- raised risk others ignored
+
+Prompts:
+- Tell me about an unpopular decision.
+- Tell me about stepping up and disagreeing with a teammate's approach.
+- If your manager instructed something you disagreed with, how would you handle it?
+
+14. Deliver Results
+Definition:
+Leaders focus on key inputs and deliver quality results on time despite setbacks.
+
+What interviewers look for:
+- execution
+- prioritization
+- resilience
+- outcome focus
+- timely delivery
+- quality under pressure
+
+Story types:
+- delivered under tight deadline
+- handled multiple assignments
+- overcame obstacle
+- pivoted strategy late in project
+- recovered failing project
+
+Prompts:
+- Tell me about handling a variety of assignments.
+- Give an example of pivoting 75% through a project and succeeding.
+- Tell me about overcoming an obstacle and delivering results.
+
+15. Strive to be Earth's Best Employer
+Definition:
+Leaders create safer, more productive, diverse, higher-performing, more just work environments and support employee growth.
+
+What interviewers look for:
+- empathy
+- team health
+- inclusion
+- empowering others
+- growth mindset
+- psychological safety
+
+Story types:
+- improved team process
+- supported teammate growth
+- created safer feedback loop
+- improved onboarding
+- reduced burnout
+
+16. Success and Scale Bring Broad Responsibility
+Definition:
+Leaders think about secondary effects of actions, act humbly, and leave things better.
+
+What interviewers look for:
+- second-order thinking
+- responsible scaling
+- community/customer/employee impact
+- long-term consequences
+- humility about imperfect systems
+
+Story types:
+- identified unintended consequences
+- improved privacy/security/reliability
+- reduced negative externality
+- made scalable process more responsible
+
+Behavioral answer template
+"Situation: [specific context]. Task: I was responsible for [goal/stakes]. Action: I did [specific actions], including [tradeoff/conflict/decision]. Result: This led to [metric/outcome]. I learned [lesson], and if doing it again I would [improvement]."
+
+Story bank matrix
+
+For each story, fill:
+- Title
+- Date / role
+- Situation
+- Task
+- Actions
+- Results
+- Metrics
+- Main LPs
+- Backup LPs
+- Failure/tension
+- Tradeoff
+- Follow-up details
+- What I would do differently
+
+Recommended 10-15 story categories
+1. Customer-impacting incident
+2. Ambiguous project
+3. Technical deep dive/root cause
+4. Code quality/standards
+5. Fast decision with incomplete data
+6. Disagreement with teammate/manager
+7. Mentorship/coaching
+8. Cost/resource constraint
+9. Simplification/invention
+10. Project delivered under deadline
+11. Failure and recovery
+12. Data-driven decision
+13. Scaling/reliability improvement
+14. Cross-team influence
+15. Personal learning/growth
+
+Behavioral interview checklist
+Before answering:
+- identify which LP is being tested
+- choose best matching story
+- answer exact question
+- keep story specific
+- quantify result
+- use "I"
+- include tradeoff/obstacle
+- prepare for follow-up
+
+After answering:
+- pause
+- let interviewer ask for depth
+- do not keep adding unrelated details
