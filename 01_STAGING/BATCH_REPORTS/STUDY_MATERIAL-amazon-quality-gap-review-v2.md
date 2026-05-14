@@ -13,11 +13,11 @@ source_notes:
 # STUDY_MATERIAL Amazon Quality + Gap Review v2
 
 ## PASS / NEEDS_FIX
-**PASS**
+**NEEDS_FIX**
 
 ## PDF unreadable risk
-- Resolved for the high-priority corpus via manual extraction context integration.
-- Remaining PDFs are non-blocking or supporting-only for this batch.
+- Not resolved yet.
+- Risk is now explicitly tracked as “replacement files absent” rather than ambiguous unreadable status.
 
 ## SDE I vs SDE II calibration status
 - **PASS**: project note includes explicit role-depth, round expectation, and ambiguity/leadership calibration.
@@ -32,5 +32,5 @@ source_notes:
 - **PARTIAL**: manual structural check ok; parser-backed YAML validation still pending due unavailable parser tooling.
 
 ## Safe to proceed to next STUDY_MATERIAL batch?
-**Yes.**
-Safe to proceed to the next `STUDY_MATERIAL` batch; preserve this corpus as closed with manual-extraction traceability in the source register.
+**No.**
+Proceed only after `00_EXTRACTED_PDF_NOTES/` is populated (or equivalent extracted files are provided) and mapped replacements are integrated into downstream Amazon outputs.

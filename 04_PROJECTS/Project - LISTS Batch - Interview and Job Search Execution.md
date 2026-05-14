@@ -18,17 +18,6 @@ source_notes:
 ## Outcome
 Operational weekly plan for interview prep, applications, and technical practice.
 
-## Weekly protocol
-- Monday–Friday AM: applications block (target: 5/day).
-- Monday/Wednesday/Friday PM: coding + system design drills.
-- Tuesday/Thursday PM: resume/referral/networking actions.
-- Sunday review: progress, blockers, next-week plan.
-
-## Metrics
-- Applications sent (weekly target: 25).
-- Practice sessions completed (weekly target: 5).
-- Referral/outreach messages (weekly target: 10).
-
 ## Current status
 Source tasks exist but are fragmented across multiple LISTS notes.
 
@@ -46,4 +35,3 @@ Source tasks exist but are fragmented across multiple LISTS notes.
 
 ## Linked notes
 - [[MOC - Learning Resources and Study Planning]]
-- [[LISTS Corrections]]

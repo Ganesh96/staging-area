@@ -1,0 +1,352 @@
+# Low-Level Design, Object-Oriented Design, and Maintainable Code
+
+Core expectation
+Amazon expects engineers to write logical, maintainable, readable, idiomatic code. Low-level design and object-oriented design are important because production software must be extensible, testable, and robust over time.
+
+What Amazon evaluates
+- code does what it is intended to do
+- code is syntactically correct
+- code is readable and maintainable
+- code is idiomatic in chosen language
+- design choices are defensible
+- abstractions are appropriate
+- edge cases are handled
+- code is robust and well-tested
+- solution can evolve without becoming brittle
+
+Object-oriented design expectations
+You should know how to:
+- model entities and responsibilities
+- use classes/interfaces appropriately
+- separate concerns
+- use composition/aggregation and inheritance appropriately
+- explain tradeoffs in your design
+- apply common design patterns when useful
+- avoid overengineering
+- keep APIs clean
+- make code testable
+
+Important principle
+You may not be asked to recite design patterns, but you may need to defend design choices. The interviewer cares more about whether the design is extensible, bug-resistant, and understandable.
+
+Core OOD concepts
+
+1. Encapsulation
+Hide internal state and expose clear methods.
+
+Interview signal:
+- prevents invalid state
+- reduces coupling
+- makes future changes safer
+
+2. Abstraction
+Expose the essential behavior and hide implementation details.
+
+Interview signal:
+- caller does not need to know storage internals
+- implementations can be swapped
+
+3. Inheritance
+Use when there is a true "is-a" relationship and shared behavior.
+
+Risk:
+- deep inheritance hierarchies become brittle
+- inheritance can overcouple child classes to parent implementation
+
+4. Composition
+Build objects from smaller objects.
+
+Often preferable because:
+- behavior is easier to swap
+- lower coupling
+- better testability
+
+5. Aggregation
+Represent ownership/containment without necessarily controlling lifecycle.
+
+6. Interfaces
+Define contracts without binding to implementation.
+
+Useful for:
+- testing
+- dependency inversion
+- multiple implementations
+- clean API boundaries
+
+SOLID principles
+
+Single Responsibility
+A class/function should have one reason to change.
+
+Open/Closed
+Code should be open for extension but closed for modification.
+
+Liskov Substitution
+Subtypes should be usable wherever base types are expected.
+
+Interface Segregation
+Prefer focused interfaces over large general-purpose interfaces.
+
+Dependency Inversion
+Depend on abstractions rather than concrete implementations.
+
+Design patterns worth recognizing
+- Factory
+- Strategy
+- Observer
+- Singleton and its risks
+- Adapter
+- Decorator
+- Builder
+- Repository
+- Command
+- State
+
+Do not force patterns. Use them only when they simplify.
+
+Low-level design problem process
+
+1. Clarify requirements
+- what operations are needed?
+- expected inputs/outputs?
+- scale?
+- concurrency?
+- persistence?
+- failure behavior?
+- extensibility requirements?
+- constraints?
+
+2. Identify entities
+Examples:
+- User
+- Message
+- CacheEntry
+- ParkingSpot
+- Vehicle
+- Order
+- Tweet
+- File
+- Node
+- Document
+- Reservation
+
+3. Define APIs
+What methods should the system expose?
+Example:
+- put(key, value)
+- get(key)
+- delete(key)
+- addUser(user)
+- follow(follower, followee)
+- postMessage(user, message)
+- search(prefix)
+
+4. Define data structures
+Map operations to data structures:
+- hash map for O(1) lookup
+- linked list for O(1) insertion/removal when node known
+- heap for priority
+- trie for prefix
+- tree for ordering
+- queue for FIFO
+- stack for undo/history
+- set for uniqueness
+
+5. Discuss complexity
+For each major operation:
+- time complexity
+- space complexity
+
+6. Discuss edge cases
+- duplicate input
+- missing key
+- capacity limits
+- eviction
+- invalid input
+- concurrency
+- ordering
+- expiration
+- persistence
+
+7. Code core classes
+Prioritize correctness and readability.
+
+8. Test
+Use examples that cover normal and boundary behavior.
+
+Common LLD / data structure design problems
+
+1. Design Linked List
+Focus:
+- node structure
+- head/tail
+- index access
+- add/delete
+- boundary conditions
+
+2. Design Skiplist
+Focus:
+- probabilistic levels
+- search/insert/delete
+- average time complexity
+
+3. Implement Stack using Queues
+Focus:
+- operation tradeoff
+- push expensive vs pop expensive design
+
+4. Implement Queue using Stacks
+Focus:
+- two-stack amortized O(1) queue
+
+5. Min Stack / Max Stack
+Focus:
+- auxiliary stack
+- O(1) min/max retrieval
+- duplicate min/max values
+
+6. LRU Cache
+Core design:
+- hash map key -> linked list node
+- doubly linked list ordered by recency
+- get: move node to front
+- put: update/insert and evict least recently used if over capacity
+
+Discuss:
+- O(1) get/put
+- capacity zero
+- duplicate updates
+- memory overhead
+- thread safety if asked
+
+7. Design HashMap / HashSet
+Discuss:
+- buckets
+- collision handling
+- chaining vs open addressing
+- resizing
+- load factor
+- hash function assumptions
+
+8. Design Circular Queue
+Discuss:
+- fixed capacity
+- front/rear pointers
+- full/empty distinction
+- modular arithmetic
+
+9. Design Twitter
+Core concepts:
+- user posts
+- follow graph
+- news feed retrieval
+- timestamp/order
+- heap merge of followed users' posts
+- scale tradeoff between fanout-on-write and fanout-on-read
+
+10. Find Median from Data Stream
+Core design:
+- max heap for lower half
+- min heap for upper half
+- rebalance
+- median from heap tops
+
+11. Trie / Add and Search Word
+Core design:
+- children map/array
+- terminal marker
+- wildcard search via DFS if needed
+
+12. Serialize and Deserialize BST / N-ary Tree
+Discuss:
+- preorder/postorder
+- null markers if needed
+- BST property can reduce markers in some approaches
+- robustness and parsing
+
+13. Dinner Plate Stacks
+Focus:
+- stacks with capacity
+- push to leftmost non-full
+- pop from rightmost non-empty
+- heap/index structure for available stacks
+
+Maintainability checklist
+
+For code:
+- clear function names
+- clear variable names
+- small functions
+- no unnecessary global state
+- comments only where logic is non-obvious
+- consistent style
+- separated parsing/logic/output if relevant
+- helper functions for repeated logic
+- no hard-coded magic values unless justified
+- input validation where appropriate
+- tests cover edge cases
+
+For design:
+- clear class responsibilities
+- low coupling
+- high cohesion
+- extensible where needed
+- no premature abstraction
+- complexity justified
+- invariants stated
+- concurrency assumptions stated
+
+Idiomatic code expectations
+Amazon wants idiomatic code in your chosen language.
+Examples:
+- Python: use dict, set, deque, heapq, collections.Counter/defaultdict where appropriate
+- Java: use HashMap, HashSet, ArrayDeque, PriorityQueue, List interfaces
+- C++: use vector, unordered_map, unordered_set, queue, stack, priority_queue, smart pointers where relevant
+
+Questions to ask during LLD
+- Should operations be thread-safe?
+- Is persistence required?
+- What are expected operation frequencies?
+- What is the scale?
+- Are keys/values bounded?
+- Is ordering required?
+- Are duplicate values allowed?
+- What should happen on invalid operation?
+- Is memory usage a concern?
+- Should the design favor simplicity or extensibility?
+
+Common tradeoffs
+- array vs linked list
+- hash map vs tree map
+- heap vs sorted list
+- inheritance vs composition
+- eager computation vs lazy computation
+- fanout-on-write vs fanout-on-read
+- memory overhead vs speed
+- generality vs simplicity
+- synchronous vs asynchronous update
+- immutable vs mutable state
+
+Model-based thinking for LLD
+
+1. Constraint model
+Start from operations and constraints. The best data structure follows from required access patterns.
+
+2. Invariant model
+Identify what must always be true.
+Example LRU:
+- map contains exactly nodes currently in list
+- list order is most-recent to least-recent
+- size <= capacity
+
+3. Tradeoff model
+Every design is a tradeoff. State what you optimize for.
+
+4. Failure mode model
+Ask how the object can enter invalid state and prevent it.
+
+5. Evolution model
+Ask what new requirements are likely and whether your design can absorb them.
+
+LLD answer template
+"I would model this with [classes/data structures]. The key operations are [operations]. The main invariant is [invariant]. For performance, I use [data structure] because [reason]. The main tradeoff is [tradeoff]. I would test [edge cases]. If concurrency/persistence were required, I would add [mechanism]."

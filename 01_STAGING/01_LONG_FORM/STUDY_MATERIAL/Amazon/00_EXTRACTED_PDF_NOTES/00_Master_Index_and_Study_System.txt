@@ -1,0 +1,177 @@
+# Amazon SDE Interview Prep - Master Index and Study System
+
+Purpose
+This folder consolidates the useful interview-prep content extracted from all uploaded PDFs into a structured note system. It removes repeated recruiting fluff, duplicated passages, press links, and generic marketing text, while preserving the actual interview preparation signal: what Amazon evaluates, what to study, how to answer, how to practice, and how to organize preparation.
+
+Source PDFs consolidated
+- Amazon Systems Design Preparation.pdf
+- Candidate Phone Interview Prep.pdf
+- Fortify-Experts-Behavioral-Questions-Based-on-Amazon-Principles.pdf
+- SDE Onsite Competency Prep Guide.pdf
+- SDE+II+Phone+Screen+Prep+Guide.pdf
+- STAR Leadership Principals.pdf
+- Amazon SDE Interview Prep.pdf
+- Amazon SDE prep.pdf
+- SDE Interview Prep Guide 1.pdf
+- SDE Interview Prep Guide 2.pdf
+- SDE Interview Prep Guide 3.pdf
+- 12 Week Programme - Leetcode.pdf
+- Leetcode Quick.pdf
+
+Note design principles used
+1. Externalize memory
+   Do not keep preparation in your head. Store concepts, rubrics, stories, and checklists in separate buckets so they can be retrieved quickly.
+2. Chunk by function
+   Notes are split by interview function: coding, low-level design, system design, behavioral, operating systems, networking, and review plans.
+3. Use retrieval cues
+   Each section uses clear labels: "What they evaluate", "What to prepare", "How to answer", "Failure modes", and "Practice prompts".
+4. Separate planning from execution
+   Study plans and checklists are in separate files from conceptual notes. This prevents mixing "what to learn" with "what to do today".
+5. Use model stacks
+   Complex interview answers should use multiple lenses: constraints, tradeoffs, failure modes, incentives, customer impact, scalability, and operational performance.
+6. Reduce decision fatigue
+   Use templates and decision rules. During interviews, you should not invent the process from scratch.
+
+How to use this note system
+
+Phase 1 - Orientation
+Read:
+- 01_Amazon_Interview_Strategy.txt
+- 09_Final_Checklists_and_Rubrics.txt
+
+Goal:
+Understand what Amazon interviews are actually evaluating.
+
+Phase 2 - Coding foundation
+Read:
+- 02_Coding_and_DS_Algorithms.txt
+- 08_12_Week_Study_Plan_and_Leetcode_Map.txt
+
+Goal:
+Convert the study list into daily practice.
+
+Phase 3 - Design preparation
+Read:
+- 03_LLD_OOD_and_Maintainable_Code.txt
+- 04_System_Design_Distributed_Systems.txt
+
+Goal:
+Build a repeatable framework for whiteboarding, requirements, components, APIs, data stores, scaling, and operations.
+
+Phase 4 - Behavioral preparation
+Read:
+- 06_Behavioral_Leadership_Principles_STAR.txt
+- 07_Question_Bank_and_Answer_Prompts.txt
+
+Goal:
+Prepare 10-15 strong professional moments and map them to Leadership Principles.
+
+Phase 5 - Final drill
+Use:
+- 09_Final_Checklists_and_Rubrics.txt
+
+Goal:
+Run interview simulations under constraints.
+
+Core interview model
+
+Amazon interviews evaluate a combined signal:
+
+1. Technical correctness
+   Can you solve coding/design problems accurately?
+2. Technical depth
+   Can you explain data structures, algorithms, complexity, systems, databases, OS, networking, and tradeoffs?
+3. Production orientation
+   Can you produce scalable, robust, maintainable, well-tested code and designs?
+4. Customer orientation
+   Do you start from the customer and the problem being solved?
+5. Judgment under ambiguity
+   Can you clarify vague requirements, reason with incomplete data, and make sensible tradeoffs?
+6. Ownership
+   Do you personally own outcomes, failures, decisions, and long-term quality?
+7. Communication
+   Can you think out loud, collaborate, ask clarifying questions, and explain decisions concisely?
+
+Model stack for interview answers
+
+Use this stack across coding, design, and behavioral answers:
+
+1. Objective
+   What are we solving?
+2. Constraints
+   Inputs, scale, latency, memory, availability, time, customer expectations, team/resource constraints.
+3. Options
+   At least two plausible approaches.
+4. Tradeoffs
+   Time vs space, consistency vs availability, simplicity vs extensibility, speed vs correctness, short-term delivery vs long-term maintainability.
+5. Choice
+   State your decision and why.
+6. Execution
+   Implementation, system components, or actions taken.
+7. Validation
+   Tests, metrics, monitoring, edge cases, results.
+8. Reflection
+   What you learned or would improve.
+
+High-signal recurring advice across PDFs
+
+- Ask clarifying questions before solving.
+- Keep the customer and problem in mind.
+- Write down requirements first in system design.
+- Think out loud while coding or designing.
+- Pick one programming language you are strongest in and use it consistently.
+- Write syntactically correct code, not pseudocode.
+- Produce code close to production quality.
+- Use descriptive variable names.
+- Write modular code.
+- Check edge cases.
+- Add test cases.
+- State time and space complexity.
+- Explain tradeoffs and possible improvements.
+- Prepare to discuss technologies listed on your resume.
+- Review the job description and align your examples to the role.
+- Prepare examples for Amazon Leadership Principles.
+- Use STAR for behavioral questions.
+- Use "I" rather than "we" when explaining actions.
+- Support outcomes with metrics and data.
+- Avoid vague, high-level answers.
+- Prepare thoughtful questions for interviewers.
+- Practice whiteboarding code and designs by hand.
+- In system design, cover components, storage, APIs, relationships, data flows, scaling, failures, availability, and operational performance.
+- For behavioral interviews, prepare a range of recent examples rather than relying on one story.
+
+Information hierarchy
+
+A. Core interview execution
+   - Amazon strategy
+   - coding process
+   - system design process
+   - behavioral STAR process
+
+B. Technical knowledge
+   - programming language
+   - data structures
+   - algorithms
+   - databases
+   - distributed systems
+   - operating systems
+   - networking and internet topics
+   - low-level design
+   - system design
+
+C. Behavioral signal
+   - Leadership Principles
+   - story bank
+   - question bank
+   - follow-up handling
+
+D. Practice system
+   - 12-week plan
+   - Leetcode map
+   - whiteboard drills
+   - mock interview rubrics
+
+E. Final review
+   - checklists
+   - failure modes
+   - answer templates

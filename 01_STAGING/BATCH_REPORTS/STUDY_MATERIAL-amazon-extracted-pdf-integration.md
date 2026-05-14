@@ -1,7 +1,7 @@
 ---
 id: batch-20260505-amazon-extracted-pdf-integration
 type: corrections
-status: processed
+status: needs-fix
 created: 2026-05-05
 updated: 2026-05-05
 batch_scope: "Amazon extracted PDF note integration"
@@ -11,7 +11,7 @@ tags: [#ops/corrections, #ops/needs-fix]
 # STUDY_MATERIAL Amazon Extracted PDF Integration
 
 ## Extracted files used
-- `00_EXTRACTED_PDF_NOTES/` segmented corpus plus manual extraction context were used as authoritative replacements.
+- None found in repository path `01_STAGING/01_LONG_FORM/STUDY_MATERIAL/Amazon/00_EXTRACTED_PDF_NOTES/`.
 
 ## Original PDFs intended for replacement
 - SDE+II+Phone+Screen+Prep+Guide.pdf
@@ -37,7 +37,7 @@ tags: [#ops/corrections, #ops/needs-fix]
 - MOC - Amazon Interview Preparation
 
 ## Unresolved files
-- High-priority mappings are now resolved via the extracted corpus + manual context; residual supporting-only files are non-blocking.
+- All 13 intended replacement mappings remain unresolved because extracted text files were not present.
 
 ## Traceability confirmation
 - Source register now tracks expected replacement mapping and marks each item `needs-fix` without mislabeling as deleted/missing provenance.

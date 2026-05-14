@@ -1,0 +1,580 @@
+# System Design and Distributed Systems
+
+Core expectation
+Amazon system design interviews evaluate whether you can design a substantial system, clarify ambiguity, identify tradeoffs, account for customer needs, and reason about scalability, failures, availability, performance, and operations.
+
+What to optimize for
+A good system design answer should show:
+- customer understanding
+- requirements gathering
+- component decomposition
+- APIs and data flow
+- storage choices
+- scalability strategy
+- tradeoffs
+- operational performance
+- failure handling
+- monitoring/debugging
+- ability to explain technology choices
+
+System design interview process
+
+1. Clarify the problem
+The interviewer may be intentionally vague. Ask questions.
+
+Clarifying questions:
+- Who is the customer?
+- What problem are we solving?
+- What are the core use cases?
+- What are non-goals?
+- What is the expected scale?
+- Read-heavy or write-heavy?
+- Latency requirements?
+- Availability requirements?
+- Consistency requirements?
+- Data retention?
+- Security/privacy requirements?
+- Geographic distribution?
+- Mobile/web/API clients?
+- What failure modes matter most?
+
+2. Write requirements first
+The PDFs repeatedly state that requirements should be the first thing on the board.
+
+Functional requirements:
+- user actions
+- API capabilities
+- data creation/retrieval/update/deletion
+- search/filtering
+- notifications
+- authentication if relevant
+
+Non-functional requirements:
+- availability
+- latency
+- throughput
+- scalability
+- consistency
+- durability
+- security
+- privacy
+- cost
+- observability
+- operational simplicity
+
+3. Estimate scale
+Define approximate:
+- daily active users
+- requests per second
+- read/write ratio
+- object size
+- storage per day/year
+- peak traffic
+- bandwidth
+- hot keys/skew
+
+4. Define APIs
+Examples:
+- POST /images
+- GET /images/{id}
+- POST /tweets
+- GET /feed/{userId}
+- POST /shorten
+- GET /{shortCode}
+
+5. Define data model
+Identify:
+- entities
+- keys
+- indexes
+- relationships
+- query patterns
+- storage size
+- partition key
+
+6. Draw high-level architecture
+Use boxes and arrows:
+- client
+- API gateway/load balancer
+- application services
+- databases
+- cache
+- object storage
+- queue/stream
+- workers
+- search index
+- monitoring/logging
+- CDN if relevant
+
+7. Deep dive
+Choose the most important bottleneck or tradeoff:
+- feed generation
+- cache invalidation
+- sharding
+- consistency
+- id generation
+- database schema
+- queue processing
+- failure recovery
+- hot partition handling
+- operational monitoring
+
+8. Discuss tradeoffs
+Explicitly compare options.
+
+9. Discuss operations
+How do we know it works?
+- metrics
+- logs
+- traces
+- alarms
+- dashboards
+- load tests
+- canaries
+- rollback
+- incident response
+
+10. Summarize
+Restate architecture, main tradeoffs, and next improvements.
+
+System design topics to review
+
+Core software components:
+- application services
+- APIs
+- databases
+- caches
+- queues
+- workers
+- object storage
+- search indexes
+- load balancers
+- CDNs
+- monitoring systems
+
+Distributed systems:
+- service-oriented architecture
+- microservices
+- n-tier architecture
+- distributed caching
+- load balancing
+- map-reduce
+- sharding
+- eventual consistency
+- replication
+- quorum
+- vector clocks
+- gossip protocols
+- anti-entropy
+- erasure coding
+- Byzantine quorum concepts at high level
+
+Scalability:
+- horizontal scaling
+- vertical scaling
+- partitioning
+- sharding
+- caching
+- asynchronous processing
+- load balancing
+- database indexing
+- read replicas
+- denormalization
+- batching
+- backpressure
+- rate limiting
+- fanout strategies
+
+Databases:
+- relational databases
+- non-relational databases
+- DynamoDB-style key-value/document stores
+- Cassandra-style wide-column stores
+- Postgres-style relational systems
+- SQL vs NoSQL tradeoffs
+- indexing
+- transactions
+- consistency
+- partition keys
+- replication
+- query patterns
+- polyglot persistence
+
+Architecture patterns:
+- API gateway
+- microservices
+- MVC
+- domain-driven design
+- bounded context
+- command-query separation
+- CQRS
+- event sourcing
+- twelve-factor app
+- cloud design patterns
+- scale cube
+- event-driven architecture
+
+Customer-first framing
+Always connect the design to the customer problem.
+For example:
+- "The customer needs fast image upload and retrieval."
+- "The customer needs a fresh feed with low latency."
+- "The seller needs reliable order state."
+- "The user needs the short URL to redirect quickly even under high traffic."
+
+Requirements checklist
+
+Functional:
+- create
+- read
+- update
+- delete
+- search
+- list/feed
+- authentication
+- permissions
+- notifications
+- upload/download
+- analytics
+
+Non-functional:
+- latency
+- throughput
+- availability
+- durability
+- consistency
+- scalability
+- security
+- observability
+- maintainability
+- cost
+- compliance/privacy
+- disaster recovery
+
+Data model checklist
+For each entity:
+- primary key
+- secondary indexes
+- relationships
+- cardinality
+- query patterns
+- write patterns
+- TTL/retention
+- data size
+- consistency needs
+- partition strategy
+
+API checklist
+For each endpoint:
+- method
+- path
+- request body
+- response
+- auth
+- idempotency
+- error codes
+- pagination
+- rate limits
+- timeout behavior
+
+Caching
+Use caching when:
+- data is read frequently
+- reads dominate writes
+- data can tolerate some staleness
+- latency matters
+- database load must be reduced
+
+Cache types:
+- client cache
+- CDN
+- application cache
+- distributed cache
+- database cache
+
+Cache issues:
+- invalidation
+- stale data
+- cache stampede
+- hot keys
+- memory limits
+- eviction policy
+- consistency with source of truth
+
+Load balancing
+Purpose:
+- distribute traffic
+- improve availability
+- enable horizontal scaling
+
+Consider:
+- round robin
+- least connections
+- health checks
+- sticky sessions if needed
+- global load balancing
+- failover
+
+Sharding
+Purpose:
+- distribute data across nodes
+- scale storage and writes
+
+Key questions:
+- what is the shard key?
+- does it avoid hot partitions?
+- how are range queries handled?
+- how is resharding handled?
+- how are cross-shard queries handled?
+
+Replication
+Purpose:
+- availability
+- durability
+- read scaling
+- disaster recovery
+
+Tradeoffs:
+- synchronous replication increases consistency but adds latency
+- asynchronous replication improves latency but allows lag
+- leader-follower simpler but leader can bottleneck
+- multi-leader enables geo-writes but conflict resolution is harder
+
+Consistency vs availability
+Be prepared to discuss tradeoffs:
+- strong consistency
+- eventual consistency
+- read-your-writes
+- monotonic reads
+- quorum reads/writes
+- conflict resolution
+
+CAP theorem framing
+In a network partition, distributed systems must trade consistency and availability.
+Do not use CAP as a slogan. Apply it to a concrete data path.
+
+Queues and asynchronous processing
+Use when:
+- work can happen later
+- spikes need smoothing
+- tasks are slow
+- retries are needed
+- systems should be decoupled
+
+Consider:
+- ordering
+- retries
+- idempotency
+- dead-letter queues
+- at-least-once vs exactly-once semantics
+- worker scaling
+- backpressure
+
+Operational performance
+The PDFs explicitly call out operational performance:
+- How will you ensure the system works at acceptable performance?
+- If a problem occurs, what is involved in troubleshooting?
+- What are possible points of failure?
+- How can they be made more robust?
+
+Operational checklist:
+- SLIs/SLOs
+- latency p50/p95/p99
+- error rate
+- saturation
+- throughput
+- queue depth
+- cache hit rate
+- database CPU/IO
+- replication lag
+- availability
+- alerting
+- dashboards
+- logs
+- traces
+- runbooks
+- canary deploys
+- rollback strategy
+- capacity planning
+
+Failure modes
+Always discuss:
+- service crash
+- database outage
+- cache outage
+- queue backlog
+- network partition
+- data corruption
+- bad deployment
+- traffic spike
+- hot key
+- slow dependency
+- partial failure
+- retry storm
+- thundering herd
+
+Mitigations:
+- replication
+- redundancy
+- retries with exponential backoff
+- circuit breakers
+- timeouts
+- bulkheads
+- rate limiting
+- graceful degradation
+- idempotency keys
+- dead-letter queues
+- health checks
+- autoscaling
+- rollback
+- backup/restore
+
+Security considerations
+Mention if relevant:
+- authentication
+- authorization
+- encryption in transit
+- encryption at rest
+- access controls
+- secrets management
+- audit logs
+- input validation
+- rate limiting
+- abuse prevention
+- data privacy
+
+System design tradeoff examples
+
+1. SQL vs NoSQL
+SQL:
+- strong relational model
+- transactions
+- flexible queries
+- joins
+- mature tooling
+
+NoSQL:
+- horizontal scale
+- high write throughput
+- flexible schema
+- query-pattern driven
+- often eventual consistency
+
+2. Monolith vs microservices
+Monolith:
+- simpler deployment
+- easier local reasoning
+- fewer network boundaries
+- can become tightly coupled
+
+Microservices:
+- independent scaling/deployment
+- clearer ownership
+- more operational complexity
+- network failures and distributed tracing needed
+
+3. Synchronous vs asynchronous
+Synchronous:
+- simpler request semantics
+- immediate result
+- dependency latency/failure propagates
+
+Asynchronous:
+- decouples systems
+- smoother spikes
+- eventual consistency
+- requires retries and idempotency
+
+4. Fanout-on-write vs fanout-on-read
+Fanout-on-write:
+- fast reads
+- expensive writes for high-follower users
+- storage amplification
+
+Fanout-on-read:
+- cheaper writes
+- slower feed reads
+- compute shifts to read time
+
+5. Strong vs eventual consistency
+Strong:
+- simpler user expectations
+- higher coordination cost
+- lower availability under partition
+
+Eventual:
+- scalable and available
+- conflict/staleness handling required
+
+6. Cache-through vs cache-aside
+Cache-aside:
+- app manages cache
+- simple but invalidation complexity
+
+Read-through/write-through:
+- abstraction hides cache mechanics
+- may add operational dependency
+
+Whiteboarding rules
+- Start with requirements.
+- Draw components as simple shapes.
+- Connect arrows showing APIs and data flow.
+- Label data stores and cache.
+- State assumptions.
+- Keep customer problem visible.
+- Dive deep when interviewer asks.
+- Avoid over-drawing before clarifying.
+
+Example: image storage system
+Functional:
+- upload image
+- retrieve image
+- store metadata
+- serve image to client
+
+Architecture:
+- client uploads image to Image Write Service
+- image written to persistent object storage
+- metadata stored in database
+- client requests image through Image Retrieval Service
+- retrieval service fetches from storage or CDN/cache
+- response returned to client
+
+Questions:
+- Are images public/private?
+- What sizes/formats?
+- Need thumbnails?
+- Expected uploads/sec?
+- Expected reads/sec?
+- Retention?
+- Latency?
+- Regional distribution?
+- Access control?
+
+Operational concerns:
+- storage durability
+- upload failures
+- partial writes
+- metadata/image consistency
+- CDN cache invalidation
+- hot images
+- malware scanning
+- monitoring errors/latency
+
+System design answer template
+"I will first clarify the customer and core use cases. Then I will define functional and non-functional requirements, estimate scale, propose APIs and data model, draw a high-level architecture, then deep dive into bottlenecks such as caching/sharding/consistency/failure handling. Finally I will summarize tradeoffs and operational metrics."
+
+Common system design failure modes
+- no requirements
+- no customer framing
+- no scale estimates
+- no APIs
+- no data model
+- no tradeoffs
+- no failure modes
+- no monitoring
+- vague technology names
+- unable to explain how chosen technology works
+- ignores consistency
+- ignores operational load
+- does not adapt when interviewer adds constraints

@@ -101,19 +101,3 @@ Expected extracted source folder: `01_STAGING/01_LONG_FORM/STUDY_MATERIAL/Amazon
 | pdfs/12 Week Programme - Leetcode.pdf | missing (no extracted file found) | needs-fix | replacement path not present in repository |
 | pdfs/Leetcode Quick.pdf | missing (no extracted file found) | needs-fix | replacement path not present in repository |
 
-
-## Manual processing confirmation (2026-05-14)
-The following Amazon study corpus has been manually processed and synthesized into extracted text summaries and downstream notes/models/registers:
-- 00_Master_Index_and_Study_System.txt
-- 01_Amazon_Interview_Strategy.txt
-- 02_Coding_and_DS_Algorithms.txt
-- 03_LLD_OOD_and_Maintainable_Code.txt
-- 04_System_Design_Distributed_Systems.txt
-- 05_OS_Networking_Internet_Fundamentals.txt
-- 06_Behavioral_Leadership_Principles_STAR.txt
-- 07_Question_Bank_and_Answer_Prompts.txt
-- 08_12_Week_Study_Plan_and_Leetcode_Map.txt
-- 09_Final_Checklists_and_Rubrics.txt
-- plus supporting PDF/DOCX set listed in this register (competitive programming, Java/backend, ASP.NET MVC, design patterns, recommendation systems, behavioral, leetcode patterns).
-
-Status update: high-priority content previously marked unreadable is now treated as **processed via manual extraction context** for knowledge-base synthesis; no further blocking extraction step remains for this batch.
